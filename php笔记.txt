@@ -1,0 +1,57 @@
+一.
+	类的自动加载(按需要加载类)
+		常规自动加载函数 __autoload();
+			function __autoload($class_name) {
+				echo "{$class_name}类加载啦<br/>";
+				include_once($class_name.".class.php");
+				echo "<br/>";
+			}
+			$a = new A();
+			var_dump($a);
+			$b = new B();
+			var_dump($b);
+
+		自定义加载函数 spl_autoload_register();
+			spl_autoload_register("auto1");
+			spl_autoload_register("auto2");
+
+			function auto1 ($class_name) {
+				echo "{$class_name} 类在auto1中加载啦<br/>";
+				$file = $class_name.".class.php";
+				if (file_exists($file)) {
+					include_once($file);
+				}
+			}
+			function auto2 ($class_name) {
+				echo "{$class_name} 类在auto2中加载啦<br/>";
+				include_once("./lib/".$class_name.".class.php");
+			}
+
+			$a = new A();
+			var_dump($a);
+			$b = new B();
+			var_dump($b);
+			$c = new C();
+			var_dump($c);
+
+		注意：自定义加载函数使常规自动加载函数失效；
+二
+	对象的复制(clone)
+		$a = clone $b;  是a,b两个对象
+		$a = $b;是同一个对象
+		注意：clone 能使单例不单例；可以用魔术方法__clone()禁止克隆
+
+三
+	序列化和反序列化
+		序列化
+			内存数据转为物理硬盘数据
+
+		反序列化
+			物理硬盘数据转为内存数据
+
+		对象序列化和反序列化__sleep()
+
+	构造函数__construct();
+	析构函数__destruct(); 修改对象撤销过程
+
+		static:: 和 self::的区别（前面是在运行时确定作用域，后面的是在编译时确定作用域）
