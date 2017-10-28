@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_notifications"
+        android:title="notifications"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_ications"
+        android:title="notiions"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_stings"
+        android:title="sb"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never"/>
+</menu>
