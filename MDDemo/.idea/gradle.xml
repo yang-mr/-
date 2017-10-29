@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/coordinatorlayoutdemo" />
             <option value="$PROJECT_DIR$/navigationdemo" />
             <option value="$PROJECT_DIR$/toolbardemo" />
           </set>

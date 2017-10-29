@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MDDemo.iml" filepath="$PROJECT_DIR$/MDDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coordinatorlayoutdemo/coordinatorlayoutdemo.iml" filepath="$PROJECT_DIR$/coordinatorlayoutdemo/coordinatorlayoutdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/navigationdemo/navigationdemo.iml" filepath="$PROJECT_DIR$/navigationdemo/navigationdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/toolbardemo/toolbardemo.iml" filepath="$PROJECT_DIR$/toolbardemo/toolbardemo.iml" />
     </modules>
