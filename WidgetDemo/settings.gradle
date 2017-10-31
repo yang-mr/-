@@ -1,1 +1,1 @@
-include ':app', ':popupwindowdemo'
+include ':app', ':popupwindowdemo', ':dialogdemo'
