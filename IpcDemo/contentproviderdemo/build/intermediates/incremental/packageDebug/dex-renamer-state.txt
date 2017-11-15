@@ -1,0 +1,7 @@
+#Sun Oct 29 23:31:48 CST 2017
+base.0=/Users/yw/Study_Notes/IpcDemo/contentproviderdemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_70b5812789dc22dacd42a68def85949eff378e06
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/yw/Study_Notes/IpcDemo/contentproviderdemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1a3457d8a56b50d62862ecec29bff321a9c0e0ab/classes.dex
+base.1=/Users/yw/Study_Notes/IpcDemo/contentproviderdemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1a3457d8a56b50d62862ecec29bff321a9c0e0ab
+file.0=/Users/yw/Study_Notes/IpcDemo/contentproviderdemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_70b5812789dc22dacd42a68def85949eff378e06/classes.dex

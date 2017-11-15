@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/yw/Study_Notes/UmengDemo/app/src/androidTest/res"/><source path="/Users/yw/Study_Notes/UmengDemo/app/build/generated/res/rs/androidTest/q360/debug"/><source path="/Users/yw/Study_Notes/UmengDemo/app/build/generated/res/resValues/androidTest/q360/debug"/></dataSet><dataSet config="androidTestQ360"><source path="/Users/yw/Study_Notes/UmengDemo/app/src/androidTestQ360/res"/></dataSet><mergedItems/></merger>

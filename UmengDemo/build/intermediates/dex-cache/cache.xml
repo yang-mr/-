@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/pre-dexed/xiaomi/debug/classes-bf35e551c3d943fee3b76991137b2fe9ccb872b9.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/pre-dexed/xiaomi/debug/classes-78a8f4e2821752d0f17460547288cb82d8761295.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/pre-dexed/xiaomi/debug/classes-c6caebccff3e4e6bd556dd87cac497ae45656315.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/pre-dexed/xiaomi/debug/classes-cde574e6fd785f83c56f56d363d69801b53d025d.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/pre-dexed/xiaomi/debug/classes-729724d298860c54341a34a9c9ae9e963ff40adf.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/pre-dexed/xiaomi/debug/classes-ba956c74131cdd5a0ae09eda218bff270496e5e1.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/pre-dexed/xiaomi/debug/classes-d3211bf29bfe52d6f1feb5e4fc163b5e836d891b.jar" />
+    </item>
+    <item
+        jar="/Users/yw/ide/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/pre-dexed/xiaomi/debug/support-annotations-26.0.0-alpha1-cc604b0d73ff68747289a43a01c980fbde21e37f.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/pre-dexed/xiaomi/debug/classes-236e010130fa4ced4651550bff11d53d87acc2b6.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/yw/Study_Notes/UmengDemo/app/build/intermediates/pre-dexed/xiaomi/debug/classes-851b302d9522f9b253c2d1bd501b23a9a0da5569.jar" />
+    </item>
+
+</items>

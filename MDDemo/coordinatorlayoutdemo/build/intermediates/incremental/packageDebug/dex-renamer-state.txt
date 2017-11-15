@@ -1,0 +1,7 @@
+#Sun Oct 29 16:34:50 CST 2017
+base.0=/Users/yw/Study_Notes/MDDemo/coordinatorlayoutdemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b9f00f37caa6573d1704a969c49baca13bffa397
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/yw/Study_Notes/MDDemo/coordinatorlayoutdemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4f4a94d5e07d6d30971813619e4059aefcad5025/classes.dex
+base.1=/Users/yw/Study_Notes/MDDemo/coordinatorlayoutdemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4f4a94d5e07d6d30971813619e4059aefcad5025
+file.0=/Users/yw/Study_Notes/MDDemo/coordinatorlayoutdemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b9f00f37caa6573d1704a969c49baca13bffa397/classes.dex

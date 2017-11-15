@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/yw/Study_Notes/MDDemo/navigationdemo/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/yw/Study_Notes/MDDemo/navigationdemo/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yw/Study_Notes/MDDemo/navigationdemo/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/yw/Study_Notes/MDDemo/navigationdemo/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]

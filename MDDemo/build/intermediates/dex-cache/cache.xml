@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/yw/.android/build-cache/a823dc5c72c1755cc1852874cf2513858b752d72/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/Users/yw/Study_Notes/MDDemo/coordinatorlayoutdemo/build/intermediates/transforms/dex/debug/folders/1000/10/classes_834e397bd1ed42ec02ae49575e81a9cde661ee2b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yw/.android/build-cache/08344e60cf415b3c5e9272ca180f602bb07c34fc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="/Users/yw/Study_Notes/MDDemo/coordinatorlayoutdemo/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e7e903b409ad921cf8c0fb1d95cfd3ba26bc8f10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yw/.android/build-cache/8627c912476957bddc15905430f81db4460d1776/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="/Users/yw/Study_Notes/MDDemo/coordinatorlayoutdemo/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7feedff41012906107f300f4f7de8d56d6943c38/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yw/Study_Notes/MDDemo/coordinatorlayoutdemo/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/yw/Study_Notes/MDDemo/coordinatorlayoutdemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4f4a94d5e07d6d30971813619e4059aefcad5025/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yw/.android/build-cache/7c09ece7e6157e0fba751ac9a5db8e266f2308d3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/Users/yw/Study_Notes/MDDemo/coordinatorlayoutdemo/build/intermediates/transforms/dex/debug/folders/1000/10/classes_786f32f8ba3e561ddadbc93a31c2b17640ea28d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yw/Study_Notes/MDDemo/coordinatorlayoutdemo/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="24ea0f58fecb5f19086b42408a3143fecebb72f8">
+        <dex dex="/Users/yw/Study_Notes/MDDemo/coordinatorlayoutdemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b9f00f37caa6573d1704a969c49baca13bffa397/classes.dex" />
+    </item>
+
+</items>

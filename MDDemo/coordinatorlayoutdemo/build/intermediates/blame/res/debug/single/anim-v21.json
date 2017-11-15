@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/yw/Study_Notes/MDDemo/coordinatorlayoutdemo/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/yw/.android/build-cache/08344e60cf415b3c5e9272ca180f602bb07c34fc/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/yw/Study_Notes/MDDemo/coordinatorlayoutdemo/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/yw/.android/build-cache/08344e60cf415b3c5e9272ca180f602bb07c34fc/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/yw/Study_Notes/MDDemo/coordinatorlayoutdemo/build/intermediates/res/merged/debug/anim-v21/design_appbar_state_list_animator.xml",
+        "source": "/Users/yw/.android/build-cache/08344e60cf415b3c5e9272ca180f602bb07c34fc/output/res/anim-v21/design_appbar_state_list_animator.xml"
+    }
+]

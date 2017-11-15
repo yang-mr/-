@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/yw/ide/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1-cc604b0d73ff68747289a43a01c980fbde21e37f.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/pre-dexed/debug/classes-87dc772d170e400712dee07fa7ababb216eed3a1.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/pre-dexed/debug/classes-14ff1cafd57f4f4ad3708b3264e5029c5729dc3b.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/pre-dexed/debug/classes-9556731f8183346c51d7718dab670f28d17e65d7.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/pre-dexed/debug/classes-b8b28dcdf5b8e34a50ba1fdb048692f6c9b05cb6.jar" />
+    </item>
+    <item
+        jar="/Users/yw/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/yw/Study_Notes/ImgDemo/glidedemo/build/intermediates/pre-dexed/debug/glide-3.7.0-3dc87704440344a072a3bcfe5ee2286f02755d2e.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/pre-dexed/debug/classes-45fb993552542967762f7563a2e4712b21e8aa18.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/pre-dexed/debug/classes-38d6270080a24a8505c25b81d9747d739b4a4131.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/pre-dexed/debug/classes-27768119760615ad786cf049d9cd496d7111f45b.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/pre-dexed/debug/classes-999ff83289785f1c603caf00e5d75f92adc5a333.jar" />
+    </item>
+    <item
+        jar="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/yw/Study_Notes/ImgDemo/lrudemo/build/intermediates/pre-dexed/debug/classes-3618efe86649ab7fad4dbd6c3b8b78b607fb1f38.jar" />
+    </item>
+
+</items>

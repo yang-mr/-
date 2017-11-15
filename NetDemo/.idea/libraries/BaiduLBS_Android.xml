@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="BaiduLBS_Android">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/threaddemo/libs/BaiduLBS_Android.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/threaddemo/libs/BaiduLBS_Android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/threaddemo/libs/BaiduLBS_Android.jar!/com/baidu/android" />
+      <root url="jar://$PROJECT_DIR$/threaddemo/libs/BaiduLBS_Android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/threaddemo/libs/BaiduLBS_Android.jar!/com/baidu/android/bbalbs/common/a" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/yw/Study_Notes/NetDemo/threaddemo/libs/BaiduLBS_Android.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="909e7e4eb5de217de94221a2cdc3dd55fd27f8d9">
+        <dex dex="/Users/yw/Study_Notes/NetDemo/threaddemo/build/intermediates/pre-dexed/debug/BaiduLBS_Android-c2ae00c048ccc8f6d220233f463a475b6ce291e3.jar" />
+    </item>
+
+</items>
