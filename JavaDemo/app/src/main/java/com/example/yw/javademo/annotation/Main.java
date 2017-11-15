@@ -1,4 +1,4 @@
-package org.xutils.sample.javademo.annotation;
+package com.example.yw.javademo.annotation;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
@@ -41,7 +41,7 @@ public class Main {
     }
 
     private static void 测试注解() {
-        org.xutils.sample.javademo.Main main = new org.xutils.sample.javademo.Main();
+        Main main = new Main();
         try {
             Method method = main.getClass().getMethod("handler", null);
             boolean is = method.isAnnotationPresent(MyAnnotation.class);

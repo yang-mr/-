@@ -1,4 +1,4 @@
-package org.xutils.sample.javademo.annotation;
+package com.example.yw.javademo.annotation;
 
 /**
  * Created on 2017/11/14  17:09.

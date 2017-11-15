@@ -1,14 +1,9 @@
-package org.xutils.sample.javademo;
+package com.example.yw.javademo;
 
-import android.util.Log;
+import com.example.yw.javademo.annotation.MyAnnotation;
 
-import org.xutils.sample.javademo.annotation.MyAnnotation;
-
-import java.lang.annotation.Target;
 import java.lang.reflect.Method;
-import java.util.HashMap;
 import java.util.HashSet;
-
 /**
  * Created on 2017/11/14  11:47.
  * Author jackyang
@@ -16,7 +11,6 @@ import java.util.HashSet;
  *
  * @Description
  */
-
 public class Main {
     public static void main(String[] args) {
         RectObj r1 = new RectObj(1, 2);

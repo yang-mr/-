@@ -1,4 +1,4 @@
-package org.xutils.sample.javademo.annotation;
+package com.example.yw.javademo.annotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
