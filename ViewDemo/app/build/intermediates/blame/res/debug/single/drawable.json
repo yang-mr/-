@@ -24,12 +24,12 @@
         "source": "/Users/yw/.android/build-cache/6d8e9700f8d7bdcd3828d7184cb8531d15fa148f/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/yw/.android/build-cache/6d8e9700f8d7bdcd3828d7184cb8531d15fa148f/output/res/drawable/abc_ratingbar_material.xml"
-    },
-    {
         "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
         "source": "/Users/yw/.android/build-cache/6d8e9700f8d7bdcd3828d7184cb8531d15fa148f/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/yw/.android/build-cache/6d8e9700f8d7bdcd3828d7184cb8531d15fa148f/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
         "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
