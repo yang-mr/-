@@ -4,6 +4,14 @@
         "source": "/Users/yw/Study_Notes/JavaDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/home/jack/Study_Notes/JavaDemo/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/home/jack/Study_Notes/JavaDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/jack/Study_Notes/JavaDemo/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/jack/Study_Notes/JavaDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/yw/Study_Notes/JavaDemo/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
         "source": "/Users/yw/Study_Notes/JavaDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }
