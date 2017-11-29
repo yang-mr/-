@@ -1,0 +1,75 @@
+Classfile /home/jack/Study_Notes/jvm_dalvik/TestMain.class
+  Last modified Nov 27, 2017; size 382 bytes
+  MD5 checksum b71d71a685e382842611f3990256a7b3
+  Compiled from "TestMain.java"
+public class TestMain
+  SourceFile: "TestMain.java"
+  minor version: 0
+  major version: 51
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Class              #18            //  TestMain
+   #2 = Methodref          #1.#19         //  TestMain."<init>":()V
+   #3 = Methodref          #1.#20         //  TestMain.test:()V
+   #4 = Methodref          #6.#19         //  java/lang/Object."<init>":()V
+   #5 = Fieldref           #1.#21         //  TestMain.mX:I
+   #6 = Class              #22            //  java/lang/Object
+   #7 = Utf8               mX
+   #8 = Utf8               I
+   #9 = Utf8               main
+  #10 = Utf8               ([Ljava/lang/String;)V
+  #11 = Utf8               Code
+  #12 = Utf8               LineNumberTable
+  #13 = Utf8               <init>
+  #14 = Utf8               ()V
+  #15 = Utf8               test
+  #16 = Utf8               SourceFile
+  #17 = Utf8               TestMain.java
+  #18 = Utf8               TestMain
+  #19 = NameAndType        #13:#14        //  "<init>":()V
+  #20 = NameAndType        #15:#14        //  test:()V
+  #21 = NameAndType        #7:#8          //  mX:I
+  #22 = Utf8               java/lang/Object
+{
+  public int mX;
+    flags: ACC_PUBLIC
+
+  public static void main(java.lang.String[]);
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=2, args_size=1
+         0: new           #1                  // class TestMain
+         3: dup           
+         4: invokespecial #2                  // Method "<init>":()V
+         7: astore_1      
+         8: aload_1       
+         9: invokevirtual #3                  // Method test:()V
+        12: return        
+      LineNumberTable:
+        line 4: 0
+        line 5: 8
+        line 6: 12
+
+  public TestMain();
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #4                  // Method java/lang/Object."<init>":()V
+         4: aload_0       
+         5: iconst_0      
+         6: putfield      #5                  // Field mX:I
+         9: return        
+      LineNumberTable:
+        line 8: 0
+        line 2: 4
+        line 9: 9
+
+  public void test();
+    flags: ACC_PUBLIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return        
+      LineNumberTable:
+        line 11: 0
+}
