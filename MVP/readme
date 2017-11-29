@@ -1,0 +1,3 @@
+dagger2:
+
+    @Inject, @Module, @Provides, @Component, @Qulifier, @Scope, @Singleten
