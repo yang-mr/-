@@ -1,6 +1,4 @@
-package com.example.yw.mvp.dagger2_demo.demo2;
-
-import com.example.yw.mvp.dagger2_demo.demo1.DaggerComputerComponent;
+package com.example.yw.mvp.dagger2_demo.demo3;
 
 import javax.inject.Inject;
 
@@ -15,12 +13,18 @@ import javax.inject.Inject;
 
 public class Computer {
 
+    @AQulifier
     @Inject
-    Cpu cpu;
+    Cpu acpu;
+
+    @BQulifier
+    @Inject
+    Cpu bcpu;
+
 
     public Computer() {
 //        com.example.yw.mvp.dagger2_demo.demo2.DaggerComputerComponent.create().inject(this);
-        com.example.yw.mvp.dagger2_demo.demo2.DaggerComputerComponent.builder().cpuModule(new CpuModule()).build().inject(this);
+        com.example.yw.mvp.dagger2_demo.demo3.DaggerComputerComponent.builder().cpuModule(new CpuModule()).build().inject(this);
     }
 
     public void run() {
