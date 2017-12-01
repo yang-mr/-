@@ -8,7 +8,7 @@ echo "remove file success "
 
 #adb exit
 
-adb -s 192.168.50.222:5555 install /home/jack/Downloads/app-armeabi-v7a-debug.apk
+adb -s 192.168.50.222:5555 install -r /home/jack/Downloads/app-armeabi-v7a-debug.apk
 
 adb -s 192.168.50.222:5555 shell am start -n com.cafari.boxserver/com.cafari.boxserver.ui.MainActivity
 
