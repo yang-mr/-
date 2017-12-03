@@ -20,7 +20,8 @@ public class Computer {
 
     public Computer() {
 //        com.example.yw.mvp.dagger2_demo.demo2.DaggerComputerComponent.create().inject(this);
-        com.example.yw.mvp.dagger2_demo.demo2.DaggerComputerComponent.builder().cpuModule(new CpuModule()).build().inject(this);
+        com.example.yw.mvp.dagger2_demo.demo2.DaggerComputerComponent.builder().cpuModule(
+                new CpuModule()).build().inject(this);
     }
 
     public void run() {

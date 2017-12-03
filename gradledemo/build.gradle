@@ -1,0 +1,9 @@
+//task hello {
+//  doLast {
+//    println'hello word'
+//  }
+//}
+
+task hello << {
+  print 'hello'
+}
