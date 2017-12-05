@@ -1,15 +1,15 @@
 #!/bin/sh
-adb connect 192.168.50.222
-adb -s 192.168.50.222:5555 uninstall com.cafari.boxserver
+adb connect 192.168.50.69
+adb -s 192.168.50.69:5555 uninstall com.cafari.boxserver
 
-adb -s 192.168.50.222:5555 shell "rm -rR /storage/emulated/0/cafari"
+adb -s 192.168.50.69:5555 shell "rm -rR /storage/emulated/0/cafari"
 echo "remove file success "
 #rm -rR /storage/emulated/0/cafari
 
 #adb exit
 
-adb -s 192.168.50.222:5555 install -r /home/jack/Downloads/app-armeabi-v7a-debug.apk
+adb -s 192.168.50.69:5555 install -r /home/jack/Downloads/app-armeabi-v7a-debug.apk
 
-adb -s 192.168.50.222:5555 shell am start -n com.cafari.boxserver/com.cafari.boxserver.ui.MainActivity
+adb -s 192.168.50.69:5555 shell am start -n com.cafari.boxserver/com.cafari.boxserver.ui.MainActivity
 
 

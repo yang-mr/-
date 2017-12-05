@@ -1,0 +1,151 @@
+2017.10.27工作日报
+1. 上午：办理入职手续，搭建环境；
+2. 下午：熟悉业务，熟悉代码环境。
+
+
+2017.10.28工作日报
+熟悉业务，熟悉代码；
+
+
+2017.11.6工作日报
+// 没有登录
+// 1.没有登录：跳到登录界面;
+// 有登录
+// 1.拥有者：跳到管理用户界面; flag = 1
+// 2.普通用户：跳到查看用户列表界面; flag = 2
+// 3.没有绑定的用户：跳到输入授权码界面; flag = 3
+
+用户列表包括item的操作（删除,设为管理员）
+输入授权码对话框
+
+
+2017.11.7工作日报
+用户列表item分隔装饰
+列表显示的调整
+地图显示的调整
+
+
+
+
+
+2017.11.8工作日报
+
+增加找回密码界面
+增加输入密码界面
+Xutils3.0 事件的加入
+fragmentation管理找回密码
+
+
+2017.11.9工作日报
+
+找回密码界面的调整
+输入密码界面的调整
+
+
+2017.11.10工作日报
+
+解决用户列表的返回键
+去掉一些CafeBoxManagerActivity里面的多余的代码	
+加入输入密码界面的获取焦点
+
+
+2017.11.13工作日报
+
+CafeBox开发项目设计说明书的书写
+结合BindDeviceProposal文档进行CafeBox管理模块的修改
+
+
+2017.11.14工作日报
+CafeBox用户管理的采用策略模式，降低代码耦合度
+地图下方的城市列表item的点击事件处理
+Glide图片库的Http扩展的学习方便后续使用
+
+
+2017.11.15 工作日报
+
+CafeBox用户管理接口的修改
+EventBus 粘性模式的调试
+EventBus 源码的分析 方便后续的开发
+Junit测试的demo 方便后续做单元测试
+
+
+2017.11.1６ 工作日报
+
+熟悉DeviceCmdAgent类下的接口命令
+熟悉HttpBus类下的Http请求
+熟悉蓝牙连接器BleConnector
+
+
+2017.11.17 工作日报
+
+CenterService中的sign up接口
+CenterService中的sign in接口
+CafeBoxService中的CreateOperateCode 接口
+CafeBoxService中的getListUser接口
+
+
+2017.11.20 工作日报
+
+
+CafeBoxService中的changeOperateCode接口
+CafeBoxService中的unbind接口
+图片上传BService过程逻辑跟踪
+
+
+2017.11.21 工作日报
+
+
+CafeBoxService调不通的接口整理
+CenterService调不通的接口整理
+linux下的环境搭建
+
+
+2017.11.22 工作日报
+
+
+CafeBoxService 调通了getListUser
+CafeBoxService 调通了unbind接口
+response callback接口按需封装
+linux下的环境搭建
+2017.11.23 工作日报
+
+
+CafeBoxService 调通了createOperateCode
+跟CafeBoxService业务交互的代码跟踪 
+
+
+2017.11.27 工作日报
+
+调试ItemActivity图片显示问题
+
+修复ItemActivity显示BService里的图片
+
+
+
+2017.11.28 工作日报
+
+修改了CreateOperateCode和ChangeOperateCode加入一些对话框等操作
+
+对每个Album人物创建Label,目前写好了界面，CreateLabel接口待调试
+
+
+2017.11.29 工作日报
+
+修改调试了createLabel接口逻辑
+增加updateLabel接口在createLabel的基础上
+更换CafeBoxManagerActivity的RecyclerView.Adapter
+
+
+2017.11.30 工作日报
+
+增加DeviceInfo接口和界面显示
+增加ChangeDeviceOwner接口调试
+增加删除NameLabel的界面需求
+
+
+
+2017.12.05 工作日报
+
+ 增加所有已创建的所有Label显示提供用户创建Label 
+ 修改Signup 界面 
+ 修改创建Label界面的用户显示头像 
