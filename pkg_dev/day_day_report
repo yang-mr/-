@@ -149,3 +149,19 @@ CafeBoxService 调通了createOperateCode
  增加所有已创建的所有Label显示提供用户创建Label 
  修改Signup 界面 
  修改创建Label界面的用户显示头像 
+
+
+杨维 2017.12.06 工作日报
+ 修改signin signup logic
+ 去除AccessId hard logic
+
+
+杨维 2017.12.07 工作日报
+ 去除signin signup data数据
+ 第一层实现Local Cache 
+
+杨维 2017.12.08 工作日报
+ 增加MergeLabel业务逻辑跟界面 
+ 增加上传照片显示进度 
+ 
+ 

@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 .load(url)
                 .placeholder(R.drawable.test_image)
                 .skipMemoryCache(true)  //禁用内存缓存
-                .diskCacheStrategy(DiskCacheStrategy.NONE) //禁用硬盘缓存
+                .diskCacheStrategy(DiskCacheStrategy.ALL) //禁用硬盘缓存
                 .error(R.drawable.error)   //出现异常的时候显示的占位图                 // .preload();  //预加载图片 加载而不显示图片
                // .downloadOnly();
                 .listener(new RequestListener<String, GlideDrawable>() {
