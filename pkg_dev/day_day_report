@@ -163,5 +163,10 @@ CafeBoxService 调通了createOperateCode
 杨维 2017.12.08 工作日报
  增加MergeLabel业务逻辑跟界面 
  增加上传照片显示进度 
+
+杨维 2017.12.12 工作日报
+
+   通过fileMd5找回本地图片替换网络图片显示 
+   增加MergePerson 之后刷新加载merge以后的数据 
  
  
