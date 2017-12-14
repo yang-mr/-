@@ -47,6 +47,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         mBookList = (TextView) findViewById(R.id.list_book);
         mFootList = (TextView) findViewById(R.id.list_foot);
+
+        //test call
+        mResolver.acquireContentProviderClient("testUri");
     }
 
     @Override

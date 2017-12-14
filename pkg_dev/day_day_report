@@ -169,4 +169,12 @@ CafeBoxService 调通了createOperateCode
    通过fileMd5找回本地图片替换网络图片显示 
    增加MergePerson 之后刷新加载merge以后的数据 
  
+杨维 2017.12.13 工作日报
+
+   修复MergePerson后刷新labels 
+   修复MergePerson后刷新第二层第三层数据 
  
+ 
+杨维 2017.12.14 工作日报
+   添加Userlist里isOwer业务代码   
+   用户列表增加下拉刷新加载更多
