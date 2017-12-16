@@ -24,12 +24,12 @@
         "source": "/Users/yw/.android/build-cache/6d8e9700f8d7bdcd3828d7184cb8531d15fa148f/output/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/drawdemo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "/Users/yw/.android/build-cache/6d8e9700f8d7bdcd3828d7184cb8531d15fa148f/output/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/yw/Study_Notes/ViewDemo/drawdemo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
         "source": "/Users/yw/.android/build-cache/6d8e9700f8d7bdcd3828d7184cb8531d15fa148f/output/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/yw/Study_Notes/ViewDemo/drawdemo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/yw/.android/build-cache/6d8e9700f8d7bdcd3828d7184cb8531d15fa148f/output/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "/Users/yw/Study_Notes/ViewDemo/drawdemo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",

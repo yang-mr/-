@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/drawdemo" />
             <option value="$PROJECT_DIR$/fragmentdemo" />
+            <option value="$PROJECT_DIR$/viewAndPropertyanim" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
