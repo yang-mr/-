@@ -34,13 +34,40 @@ public class MyView extends View {
         super(context, attrs);
     }
 
+
+
+
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+        canvasByRotate(canvas);
+    }
 
-        //drawOnAnomaly(canvas);
+    /**
+     * Canvas 画布的一些操作
+        translate 移动
+        canvas.rotate(30);//顺时针旋转画布
+        canvas.scale(0.5f, 1);   //缩放  x 缩放到 原来到1／2  y 不变
+        canvas.skew(1.732f,0);//X轴倾斜60度，Y轴不变
+     */
+    private void canvasByTranslate(Canvas canvas) {
+        Paint paint = new Paint();
+        paint.setColor(Color.RED);
+        paint.setStyle(Paint.Style.FILL);
 
-        testCanvas(canvas);
+        canvas.translate(-20, -10);  //画布平移 dx dy
+        Rect rect = new Rect(0, 0, 100, 100);
+        canvas.drawRect(rect, paint);
+    }
+
+    private void canvasByRotate(Canvas canvas) {
+        Paint paint = new Paint();
+        paint.setColor(Color.RED);
+        paint.setStyle(Paint.Style.FILL);
+
+        canvas.rotate(40);
+        Rect rect = new Rect(110, 110, 400, 400);
+        canvas.drawRect(rect, paint);
     }
 
     float mLastX = 0;

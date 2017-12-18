@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.propertyAnim.PropertyActivity"></activity>
+        <activity android:name="com.example.propertyAnim.PropertyActivity" />
+        <activity android:name=".AnimatorActivity"></activity>
     </application>
 
 </manifest>
