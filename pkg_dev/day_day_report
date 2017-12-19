@@ -178,3 +178,7 @@ CafeBoxService 调通了createOperateCode
 杨维 2017.12.14 工作日报
    添加Userlist里isOwer业务代码   
    用户列表增加下拉刷新加载更多
+
+杨维 2017.12.18 工作日报
+   修改DeviceInfo界面信息   
+   check in 地理地图，头部列表加入地图模块
