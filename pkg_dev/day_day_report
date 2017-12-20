@@ -182,3 +182,8 @@ CafeBoxService 调通了createOperateCode
 杨维 2017.12.18 工作日报
    修改DeviceInfo界面信息   
    check in 地理地图，头部列表加入地图模块
+
+杨维 2017.12.19 工作日报
+   增加地图区域的点击效果   
+   merge person 的labels修改为net request
+   labels 增加刷新&&loadMore
