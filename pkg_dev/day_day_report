@@ -187,3 +187,8 @@ CafeBoxService 调通了createOperateCode
    增加地图区域的点击效果   
    merge person 的labels修改为net request
    labels 增加刷新&&loadMore
+
+杨维 2017.12.19 工作日报
+   修改merge person 成功之后修改头像   
+   增加没有连接CafeBox的提示
+   测试createLabel changeLabel mergePerson 响应的数据
