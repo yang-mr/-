@@ -188,7 +188,12 @@ CafeBoxService 调通了createOperateCode
    merge person 的labels修改为net request
    labels 增加刷新&&loadMore
 
-杨维 2017.12.19 工作日报
+杨维 2017.12.20 工作日报
    修改merge person 成功之后修改头像   
    增加没有连接CafeBox的提示
    测试createLabel changeLabel mergePerson 响应的数据
+
+杨维 2017.12.21 工作日报
+   修复loadmore labelId = 0的问题 
+   修复mergeLabel之后刷新数据少一页的情况
+   整理接口数据文档
