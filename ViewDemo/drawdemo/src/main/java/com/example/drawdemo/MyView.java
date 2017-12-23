@@ -40,7 +40,7 @@ public class MyView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        canvasByRotate(canvas);
+        canvasBySaveAndRestore(canvas);
     }
 
     /**
@@ -68,6 +68,31 @@ public class MyView extends View {
         canvas.rotate(40);
         Rect rect = new Rect(110, 110, 400, 400);
         canvas.drawRect(rect, paint);
+    }
+
+    /**
+     * 画布到保存和恢复   canvas.save();  canvas.restore();
+     * @param canvas
+     */
+    private void canvasBySaveAndRestore(Canvas canvas) {
+        canvas.drawColor(Color.RED); //全屏
+        canvas.save();
+
+        canvas.clipRect(new Rect(100, 100, 800, 800));
+        canvas.drawColor(Color.BLACK);
+        canvas.save();
+
+        canvas.clipRect(new Rect(200, 200, 700, 700));
+        canvas.drawColor(Color.BLUE);
+        canvas.save();
+
+        canvas.clipRect(new Rect(300, 300, 600, 600));
+        canvas.drawColor(Color.GREEN);
+        canvas.save();  //先进后出
+
+        canvas.restore(); //从栈顶取一个之前save 画布
+        canvas.restore();
+        canvas.drawColor(Color.RED);
     }
 
     float mLastX = 0;

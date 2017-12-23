@@ -10,6 +10,21 @@
         android:id="@+id/bt_region"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
-
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_title"
+            android:text="my name is title"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_flag"
+            android:text="my name is flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
 </LinearLayout>
