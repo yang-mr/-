@@ -36,6 +36,10 @@
         "source": "/Users/yw/.android/build-cache/6d8e9700f8d7bdcd3828d7184cb8531d15fa148f/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
+        "merged": "/Users/yw/Study_Notes/ViewDemo/drawdemo/build/intermediates/res/merged/debug/drawable/flag_bg.xml",
+        "source": "/Users/yw/Study_Notes/ViewDemo/drawdemo/src/main/res/drawable/flag_bg.xml"
+    },
+    {
         "merged": "/Users/yw/Study_Notes/ViewDemo/drawdemo/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
         "source": "/Users/yw/.android/build-cache/6d8e9700f8d7bdcd3828d7184cb8531d15fa148f/output/res/drawable/abc_ratingbar_small_material.xml"
     },

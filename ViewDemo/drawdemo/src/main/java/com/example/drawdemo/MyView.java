@@ -40,8 +40,13 @@ public class MyView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        canvasBySaveAndRestore(canvas);
+        testCanvasAndBitmap(canvas);
     }
+
+    /**
+     * android 中的色彩矩阵
+     * 
+     */
 
     /**
      * Canvas 画布的一些操作
@@ -50,6 +55,21 @@ public class MyView extends View {
         canvas.scale(0.5f, 1);   //缩放  x 缩放到 原来到1／2  y 不变
         canvas.skew(1.732f,0);//X轴倾斜60度，Y轴不变
      */
+    private Bitmap mBitmap;
+    private Canvas mCanvas;
+    private Paint mPaint;
+
+    private void testCanvasAndBitmap(Canvas canvas) {
+        mPaint = new Paint();
+        mPaint.setColor(Color.RED);
+        mPaint.setTextSize(20);
+        mBitmap = Bitmap.createBitmap(500, 500, Bitmap.Config.ARGB_8888);
+        mCanvas = new Canvas(mBitmap);   //只是将字保存在bitmap上  这样不会显示在view
+        mCanvas.drawText("启舰大SB",0,100,mPaint);
+
+        canvas.drawBitmap(mBitmap, 0, 0, mPaint);  //将bitmap画在view上
+    }
+
     private void canvasByTranslate(Canvas canvas) {
         Paint paint = new Paint();
         paint.setColor(Color.RED);
