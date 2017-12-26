@@ -197,3 +197,9 @@ CafeBoxService 调通了createOperateCode
    修复loadmore labelId = 0的问题 
    修复mergeLabel之后刷新数据少一页的情况
    整理接口数据文档
+
+杨维 2017.12.25 工作日报
+   适配7.0 8.0 地图控件
+
+杨维 2017.12.26 工作日报
+   第二，三，四层本地缓存适配
