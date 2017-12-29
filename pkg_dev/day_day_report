@@ -203,3 +203,21 @@ CafeBoxService 调通了createOperateCode
 
 杨维 2017.12.26 工作日报
    第二，三，四层本地缓存适配
+
+1.client当前使用数据流量时
+    gui这边提示切换wifi，如果用户执意要用数据流量，则直接用NAT traversal;
+
+2.clien当前使用的是wifi
+    1).当用户有请求需求时，client直接用内网地址IP1请求;
+    2).如果1失败，则通过C_Service拿最新的内网地址IP2;
+    3).如果IP2 == IP1,用NAT traversal请求;
+    4).如果IP2 != IP1,client用内网地址IP2请求,成功 IP1 = IP2;
+    5).如果4）失败，用NAT traversal请求。
+
+杨维 2017.12.28 工作日报
+  内外网切换添加了test入口
+  针对C-Service请求，初步统一了一个请求方法
+
+杨维 2017.12.29 工作日报
+  内外网切换接口测试
+  对话框添加返回键事件

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="db_version" value="1" />
+    <string name="SubDomain">32b66d6f309aa527</string>
+    <boolean name="airkiss_status" value="false" />
+    <string name="disk_serial">/sdcard/cafari</string>
+    <string name="NAT_TOKEN">6616040947641a1472f70bb92e49ea25ab4074ee</string>
+    <boolean name="is_cc_airkiss" value="false" />
+</map>
