@@ -3,7 +3,58 @@
 //    println'hello word'
 //  }
 //}
+version = '1.0'
 
-task hello << {
-  print 'hello'
+
+task first {
+  group = 'versioning'
+  description = 'my name is first description'
 }
+
+first << {
+  print "my name is first"
+}
+
+task second << {
+  print "my name is second"
+}
+
+task hello(dependsOn: [second, first]) {
+  group = 'versioning'
+  description = "my to do task"
+}
+
+hello.doFirst {
+  print "my name is first"
+}
+hello << {
+  logger.quiet "version: $version"
+}
+
+task third << {
+  print "my name is third"
+}
+
+third.dependsOn('hello')
+
+
+// 定义gradle包装器
+//task wrapper(type:Wrapper) {
+ // gradleVersion = '8.4'
+//}
+
+//task 终结器 action 执行完finalizedByTask 会执行demo Task
+
+task finalizedByTask {}
+
+finalizedByTask.doFirst {
+  println "------------------"
+}
+
+task demo << {
+  println "my name demo"
+}
+
+finalizedByTask.finalizedBy demo
+
+

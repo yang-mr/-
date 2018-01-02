@@ -24,12 +24,12 @@
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/abc_ratingbar_material.xml"
-    },
-    {
         "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
         "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
@@ -42,6 +42,10 @@
     {
         "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/src_in2.png",
+        "source": "/Users/yw/Study_Notes/ViewDemo/app/src/main/res/drawable/src_in2.png"
     },
     {
         "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
@@ -64,6 +68,10 @@
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/abc_ic_search_api_material.xml"
     },
     {
+        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/hearmap.png",
+        "source": "/Users/yw/Study_Notes/ViewDemo/app/src/main/res/drawable/hearmap.png"
+    },
+    {
         "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
@@ -72,8 +80,20 @@
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/abc_switch_thumb_material.xml"
     },
     {
+        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/src_in.png",
+        "source": "/Users/yw/Study_Notes/ViewDemo/app/src/main/res/drawable/src_in.png"
+    },
+    {
+        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/birth1.png",
+        "source": "/Users/yw/Study_Notes/ViewDemo/app/src/main/res/drawable/birth1.png"
+    },
+    {
         "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/dog.png",
+        "source": "/Users/yw/Study_Notes/ViewDemo/app/src/main/res/drawable/dog.png"
     },
     {
         "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
@@ -82,6 +102,10 @@
     {
         "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/birth2.png",
+        "source": "/Users/yw/Study_Notes/ViewDemo/app/src/main/res/drawable/birth2.png"
     },
     {
         "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
@@ -104,6 +128,10 @@
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/notification_tile_bg.xml"
     },
     {
+        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/flag_bg.xml",
+        "source": "/Users/yw/Study_Notes/ViewDemo/app/src/main/res/drawable/flag_bg.xml"
+    },
+    {
         "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/abc_seekbar_thumb_material.xml"
     },
@@ -124,8 +152,16 @@
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/abc_ic_clear_material.xml"
     },
     {
+        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/bule.png",
+        "source": "/Users/yw/Study_Notes/ViewDemo/app/src/main/res/drawable/bule.png"
+    },
+    {
         "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/layer_shape_list.xml",
+        "source": "/Users/yw/Study_Notes/ViewDemo/app/src/main/res/drawable/layer_shape_list.xml"
     },
     {
         "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
