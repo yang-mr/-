@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <map>
     <int name="db_version" value="1" />
-    <string name="SubDomain">78132c8a743fc83d89f06c8d5d8be9d5</string>
+    <string name="SubDomain">ab3a73c7d7bc24712c122e9a8a339b44</string>
     <string name="disk_serial">/sdcard/cafari</string>
-    <string name="NAT_TOKEN">f50a2de43790275cac94612a585adae7cb55640d</string>
+    <string name="NAT_TOKEN">f9e8402289ea8089e0e0b53df9a0edf61db4a606</string>
 </map>
