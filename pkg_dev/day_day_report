@@ -221,3 +221,7 @@ CafeBoxService 调通了createOperateCode
 杨维 2017.12.29 工作日报
   内外网切换接口测试
   对话框添加返回键事件
+
+杨维 2018.1.2 工作日报
+  C-server base url modify && test
+  Fixed 8083, 10660 port image scale 
