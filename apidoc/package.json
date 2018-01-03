@@ -1,9 +1,9 @@
 {
-  "name": "package----example",
-  "version": "0.1.0",
-  "description": "apiDoc basic example",
+  "name": "Cafari-Api",
+  "version": "1.0",
+  "description": "Cafari-Api-action",
   "apidoc": {
     "title": "Custom apiDoc browser title",
-    "url" : "https://api.github.com/v1"
+    "url" : "http://cafe03.cafari.com:8080/"
   }
 }
