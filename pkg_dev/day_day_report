@@ -225,3 +225,8 @@ CafeBoxService 调通了createOperateCode
 杨维 2018.1.2 工作日报
   C-server base url modify && test
   Fixed 8083, 10660 port image scale 
+
+杨维 2018.1.3 工作日报
+  doc 编写和整理
+  bitmap 被回收处理，后期会再测试配置低的手机
+

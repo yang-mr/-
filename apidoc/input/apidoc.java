@@ -626,3 +626,31 @@
        "info": "无权限访问"
     }
  */
+
+
+/**
+ **************************
+ {
+   "code": 1,
+   "info": "上传成功"
+ }
+
+ 
+{
+   "deviceId": "54c9df6653ce",
+   "accessId": "yiliangaccess",
+   "labelId": "9",
+   "fileMd5": "21CBABD3E3402914C26C06399282F9FC",
+   "originalFilename": "Screenshot from 2017-12-27 10-50-15.png",
+   "size": "9124",
+   "isBakData": "0",
+   "bakdata_num": "0",
+   "TimeStamp": "1515053002125",
+   "clientName": "vivo_vivo Y66",
+   "dateTaken": "1515052993000",
+   "deviceType": "android",
+   "chunks": "1",
+   "chunk": "1"
+ }
+ File Object 也要
+  */
