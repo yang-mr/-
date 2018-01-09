@@ -230,3 +230,19 @@ CafeBoxService 调通了createOperateCode
   doc 编写和整理
   bitmap 被回收处理，后期会再测试配置低的手机
 
+杨维 2018.1.4 工作日报
+  为createLabel && updateLabel添加"未命名"名称 
+  调试uploadFile 增加uploadFile 对应的上传数据,补充文档
+
+杨维 2018.1.5 工作日报
+  添加第一层没有数据时, gui 提示用户
+  显示图片的size date etc 信息
+
+杨维 2018.1.8 工作日报
+  蓝牙部分功能调试
+  Fixed image size date etc 
+
+杨维 2018.1.9 工作日报
+  增加hidePerson command 
+  增加deleteFaceFromPerson command
+  client端蓝牙功能调试

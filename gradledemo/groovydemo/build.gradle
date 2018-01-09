@@ -1,0 +1,11 @@
+task testGroovy << {
+    test
+}
+
+
+def test() {
+    def a = 1
+    def b = 2
+    def c = "a = ${a}, b = ${b}"
+    println c
+}
