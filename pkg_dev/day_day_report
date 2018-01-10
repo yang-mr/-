@@ -246,3 +246,8 @@ CafeBoxService 调通了createOperateCode
   增加hidePerson command 
   增加deleteFaceFromPerson command
   client端蓝牙功能调试
+
+杨维 2018.1.10 工作日报
+  client 蓝牙配网和重新配网test
+  client 刷选蓝牙设备调试
+
