@@ -251,3 +251,10 @@ CafeBoxService 调通了createOperateCode
   client 蓝牙配网和重新配网test
   client 刷选蓝牙设备调试
 
+杨维 2018.1.11 工作日报
+  client 蓝牙连接成功之后的调试
+  readDeviceId ip && deviceId 本地保存
+
+杨维 2018.1.12 工作日报
+  用户状态检测,提示用户去登录 or bind box or 联网
+  client 蓝牙异常测试，调试异常
