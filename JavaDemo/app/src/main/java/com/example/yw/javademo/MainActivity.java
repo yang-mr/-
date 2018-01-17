@@ -9,6 +9,8 @@ import com.example.yw.javademo.泛型.Main;
 import com.example.yw.javademo.泛型.StringCompare;
 import com.example.yw.javademo.泛型.demo2.Banana;
 
+import java.nio.ByteBuffer;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -22,6 +24,39 @@ public class MainActivity extends AppCompatActivity {
         Main.getName(new Banana("我是香蕉"));
 
         startActivity(new Intent(this, MainActivity.class));
+    }
 
+    public static void main(String[] args) {
+        testThreadLocal();
+
+        testByteBuffer();
+    }
+
+    private static void testByteBuffer() {
+        ByteBuffer byteBuffer = ByteBuffer.allocate();
+    }
+
+    private static void testThreadLocal() {
+        final ThreadLocal<Integer> threadLocal = new ThreadLocal<>();
+
+        new Thread() {
+            @Override
+            public void run() {
+                super.run();
+                threadLocal.set(100);
+                System.out.println("Thread name: " + Thread.currentThread() + " threadLocal value: " + threadLocal.get());
+            }
+        }.start();
+
+        new Thread() {
+            @Override
+            public void run() {
+                super.run();
+                threadLocal.set(200);
+                System.out.println("Thread name: " + Thread.currentThread() + " threadLocal value: " + threadLocal.get());
+            }
+        }.start();
+
+        System.out.println("Thread name: " + Thread.currentThread() + " threadLocal value: " + threadLocal.get());
     }
 }

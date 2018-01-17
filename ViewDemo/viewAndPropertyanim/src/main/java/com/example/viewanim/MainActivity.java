@@ -45,6 +45,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.bt).setOnClickListener(this);
 
         findViewById(R.id.set_bt).setOnClickListener(this);
+        findViewById(R.id.bt_Tween).setOnClickListener(this);
     }
 
     private void testCustomObjectAnimator() {
@@ -55,20 +56,34 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.set_bt) {
-            startActivity(new Intent(this, AnimatorActivity.class));
-            return;
+        switch (v.getId()) {
+            case R.id.set_bt:
+                startActivity(new Intent(this, AnimatorActivity.class));
+                break;
+            case R.id.bt_Tween:
+                // 补间动画
+                testTween();
+                break;
+            case R.id.bt_ValueAnimator:
+                // ValueAnimator 动画
+                testTween();
+                break;
+            default:
+
         }
+
         //testKeyframe();
-        AnimatorSetByXMLSet();
+        //AnimatorSetByXMLSet();
         //if (v == mTvTest) {
 //            Toast.makeText(this, "我被点击啦" + " left:" + mTvTest.getLeft(), 1).show();
 //            return;
 //        }
-////        Animation animation = AnimationUtils.loadAnimation(this, R.anim.alphaanim);
-////        findViewById(R.id.tv_test).startAnimation(animation);    //使用xml 生成动画
-//
-//        //代码 使用动画
+    }
+
+    private void testTween() {
+        Animation animation = AnimationUtils.loadAnimation(this, R.anim.alphaanim);
+        findViewById(R.id.tv_test).startAnimation(animation);    //使用xml 生成动画
+        //        //代码 使用动画
 //        ScaleAnimation scaleAnimation = new ScaleAnimation(1, 1, 2, 2);
 //        scaleAnimation.setDuration(1000);
 //        scaleAnimation.setFillEnabled(true);
@@ -80,15 +95,15 @@ public class MainActivity extends Activity implements View.OnClickListener {
 //
 //        TranslateAnimation translateAnimation = new TranslateAnimation(10, 300, 10, 400);
 //        //使用动画集合
-//        AnimationSet setAnim = new AnimationSet(true);
-//        setAnim.addAnimation(rotateAnim);
-//        setAnim.addAnimation(scaleAnimation);
-//        setAnim.addAnimation(translateAnimation);
-//
-//        setAnim.setDuration(3000);
-//        setAnim.setFillAfter(true);
-//
-//        mTvTest.startAnimation(setAnim);
+      /*  AnimationSet setAnim = new AnimationSet(true);
+        setAnim.addAnimation(rotateAnim);
+        setAnim.addAnimation(scaleAnimation);
+        setAnim.addAnimation(translateAnimation);
+
+        setAnim.setDuration(3000);
+        setAnim.setFillAfter(true);
+
+        mTvTest.startAnimation(setAnim);*/
     }
 
     private void PropertyValuesHolderByOfObject() {
