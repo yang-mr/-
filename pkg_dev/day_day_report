@@ -258,3 +258,12 @@ CafeBoxService 调通了createOperateCode
 杨维 2018.1.12 工作日报
   用户状态检测,提示用户去登录 or bind box or 联网
   client 蓝牙异常测试，调试异常
+
+杨维 2018.1.16 工作日报
+  handle 用户登录后deviceId
+  check in deleteFaceFromPerson Command
+
+杨维 2018.1.17 工作日报
+  check in user BoxManager
+  增加user logout logic
+  蓝牙设备的一些client 测试
