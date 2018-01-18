@@ -267,3 +267,8 @@ CafeBoxService 调通了createOperateCode
   check in user BoxManager
   增加user logout logic
   蓝牙设备的一些client 测试
+
+杨维 2018.1.18 工作日报
+  百度地图定位以及根据屏幕坐标转成经度纬度
+  Main snacke display exception
+  蓝牙连接失败后ui处理
