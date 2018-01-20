@@ -20,6 +20,10 @@
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
+        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/layout/activity_get_left.xml",
+        "source": "/Users/yw/Study_Notes/ViewDemo/app/src/main/res/layout/activity_get_left.xml"
+    },
+    {
         "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/layout/notification_template_media.xml"
     },

@@ -28,16 +28,16 @@
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/fragmentdemo/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/notification_icon_background.xml"
+        "merged": "/Users/yw/Study_Notes/ViewDemo/fragmentdemo/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/Users/yw/Study_Notes/ViewDemo/fragmentdemo/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/fragmentdemo/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/yw/Study_Notes/ViewDemo/fragmentdemo/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/Users/yw/Study_Notes/ViewDemo/fragmentdemo/build/intermediates/res/merged/debug/drawable/notification_bg.xml",

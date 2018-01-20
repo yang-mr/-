@@ -12,6 +12,7 @@ import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
@@ -66,7 +67,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.bt_ValueAnimator:
                 // ValueAnimator 动画
-                testTween();
+                testValueAnimator();
                 break;
             default:
 
@@ -148,6 +149,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
                 int value = (int) animation.getAnimatedValue();
+                Log.d("ValueAnimator", "value: " + value);
             }
         });
 
@@ -251,7 +253,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     /**
      * AnimatorSet 联合动画
      *
-     * playSequentially:一次执行动画
+     * playSequentially:依次执行动画
      * playTogether:一起执行动画
      *
      */

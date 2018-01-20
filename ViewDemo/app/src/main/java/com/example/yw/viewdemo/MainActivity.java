@@ -1,26 +1,21 @@
 package com.example.yw.viewdemo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
+import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends Activity {
-    private Button mBt;
+public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       // mBt = (Button) findViewById(R.id.bt_test);
-
-//        mBt.setShadowLayer(5F, 10F, 10F, R.color.colorAccent);
-
-        //testWindow();
-
-       // testHandler();
+        findViewById(R.id.bt_getleft).setOnClickListener(this);
     }
 
     private void testHandler() {
@@ -68,14 +63,18 @@ public class MainActivity extends Activity {
         getWindowManager().addView(bt, null);
     }
 
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.bt_getleft:
+                startActivity(new Intent(this, GetLeftActivity.class));
+                break;
+        }
+    }
+
     /**
      * 1.layer-list标签实现的阴影只能做为background引入使用在Button上
      * 2.TextView, ImageView 使用如下的方法实现阴影效果
      * Paint.setShadowLayer实现阴影效果
      */
-
-
-
-
-
 }

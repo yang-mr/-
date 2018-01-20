@@ -16,6 +16,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.yw.viewdemo.MainActivity" >
+        </activity>
+        <activity android:name="com.example.yw.viewdemo.GetLeftActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
