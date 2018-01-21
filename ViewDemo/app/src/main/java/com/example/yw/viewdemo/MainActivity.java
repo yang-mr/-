@@ -16,6 +16,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.bt_getleft).setOnClickListener(this);
+        findViewById(R.id.bt_window).setOnClickListener(this);
     }
 
     private void testHandler() {
@@ -67,6 +68,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.bt_getleft:
+                // view.getLeft() view.getTop() event.getX() event.getRawX() 等
+                startActivity(new Intent(this, GetLeftActivity.class));
+                break;
+            case R.id.bt_window:
+                // view.getLeft() view.getTop() event.getX() event.getRawX() 等
                 startActivity(new Intent(this, GetLeftActivity.class));
                 break;
         }

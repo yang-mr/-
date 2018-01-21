@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:2:1-2
 		INJECTED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:5:5-22:19
+ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:5:5-23:19
 MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:25.4.0] /Users/yw/.android/build-cache/bca794e3bc86c6b3dbc4358f6da04f6bef20a33b/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:25.4.0] /Users/yw/.android/build-cache/c9db074631e0237efa3ee807474583b0ca51d696/output/AndroidManifest.xml:25:5-29:19
@@ -42,19 +42,23 @@ ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:12:9-
 	android:name
 		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:12:19-47
 activity#com.example.yw.viewdemo.GetLeftActivity
-ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:15:9-21:20
+ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:15:9-62
 	android:name
 		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:15:19-50
+activity#com.example.yw.viewdemo.WindowActivity
+ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:16:19-49
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/AndroidManifest.xml:21:5-23:78

@@ -1,5 +1,14 @@
-task hello (group: 'testGroup') {
+task first << {
+  println "my name is first task"
+}
+
+task second << {
+  println "my name is second task"
+}
+
+task hello (group: 'testGroup', dependsOn: [second, first]) {
   doLast {
-    println 'hello word'  
+   //  println 'hello word'  
+    logger.quiet "test Logger"
   }
 }

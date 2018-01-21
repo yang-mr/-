@@ -17,6 +17,12 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bt_window"
+            android:text="Window"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 <!--
     &lt;!&ndash;<com.example.yw.viewdemo.MyView&ndash;&gt;
