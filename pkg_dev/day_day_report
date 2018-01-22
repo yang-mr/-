@@ -272,3 +272,7 @@ CafeBoxService 调通了createOperateCode
   百度地图定位以及根据屏幕坐标转成经度纬度
   Main snacke display exception
   蓝牙连接失败后ui处理
+
+杨维 2018.1.19 工作日报
+  增加第三层的deleteFaceFromPerson for longClick
+  增加百度地图界面的照片marker以及右上角显示Photo num
