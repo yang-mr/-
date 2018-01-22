@@ -15,8 +15,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.yw.viewdemo.MainActivity" >
-        </activity>
+        <activity android:name="com.example.yw.viewdemo.MainActivity" />
         <activity android:name="com.example.yw.viewdemo.GetLeftActivity" />
         <activity android:name="com.example.yw.viewdemo.WindowActivity" >
             <intent-filter>
@@ -25,6 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.yw.viewdemo.IpcActivity" />
 
         <meta-data
             android:name="android.support.VERSION"
