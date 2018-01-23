@@ -18,6 +18,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.bt_getleft).setOnClickListener(this);
         findViewById(R.id.bt_window).setOnClickListener(this);
         findViewById(R.id.bt_ipc).setOnClickListener(this);
+        findViewById(R.id.bt_sharedPreferences).setOnClickListener(this);
     }
 
     private void testHandler() {
@@ -73,12 +74,13 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(new Intent(this, GetLeftActivity.class));
                 break;
             case R.id.bt_window:
-                // view.getLeft() view.getTop() event.getX() event.getRawX() 等
                 startActivity(new Intent(this, WindowActivity.class));
                 break;
             case R.id.bt_ipc:
-                // view.getLeft() view.getTop() event.getX() event.getRawX() 等
                 startActivity(new Intent(this, IpcActivity.class));
+                break;
+            case R.id.bt_sharedPreferences:
+                startActivity(new Intent(this, SharedPreferencesActivity.class));
                 break;
         }
     }

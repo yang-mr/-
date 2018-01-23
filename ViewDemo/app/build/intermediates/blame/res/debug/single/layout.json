@@ -4,6 +4,10 @@
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/layout/notification_template_part_chronometer.xml"
     },
     {
+        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/layout/activity_shared_preferences.xml",
+        "source": "/Users/yw/Study_Notes/ViewDemo/app/src/main/res/layout/activity_shared_preferences.xml"
+    },
+    {
         "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/layout/select_dialog_multichoice_material.xml"
     },

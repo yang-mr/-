@@ -18,13 +18,15 @@
         <activity android:name="com.example.yw.viewdemo.MainActivity" />
         <activity android:name="com.example.yw.viewdemo.GetLeftActivity" />
         <activity android:name="com.example.yw.viewdemo.WindowActivity" >
+        </activity>
+        <activity android:name="com.example.yw.viewdemo.IpcActivity" />
+        <activity android:name="com.example.yw.viewdemo.SharedPreferencesActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.yw.viewdemo.IpcActivity" />
 
         <meta-data
             android:name="android.support.VERSION"
