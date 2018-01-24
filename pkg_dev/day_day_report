@@ -280,3 +280,11 @@ CafeBoxService 调通了createOperateCode
 杨维 2018.1.22 工作日报
   在第二层 person增加showHidePerson command 入口
   增加getPhotoByLocation command 
+
+杨维 2018.1.23 工作日报
+  修复偶尔不会自动上传照片的情况
+  getPhotoByLocation command 调试
+
+杨维 2018.1.24 工作日报
+  集成bug收集工具bugly, 方便后面内测
+  增加uploading image 用户不能退出账号
