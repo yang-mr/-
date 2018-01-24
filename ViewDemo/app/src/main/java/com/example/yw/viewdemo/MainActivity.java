@@ -9,6 +9,8 @@ import android.os.Message;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.yw.viewdemo.glide.GlideActivity;
+
 public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +21,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.bt_window).setOnClickListener(this);
         findViewById(R.id.bt_ipc).setOnClickListener(this);
         findViewById(R.id.bt_sharedPreferences).setOnClickListener(this);
+        findViewById(R.id.bt_glide).setOnClickListener(this);
     }
 
     private void testHandler() {
@@ -81,6 +84,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.bt_sharedPreferences:
                 startActivity(new Intent(this, SharedPreferencesActivity.class));
+                break;
+            case R.id.bt_glide:
+                // view.getLeft() view.getTop() event.getX() event.getRawX() 等
+                startActivity(new Intent(this, GlideActivity.class));
                 break;
         }
     }

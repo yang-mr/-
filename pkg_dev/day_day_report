@@ -276,3 +276,7 @@ CafeBoxService 调通了createOperateCode
 杨维 2018.1.19 工作日报
   增加第三层的deleteFaceFromPerson for longClick
   增加百度地图界面的照片marker以及右上角显示Photo num
+
+杨维 2018.1.22 工作日报
+  在第二层 person增加showHidePerson command 入口
+  增加getPhotoByLocation command 

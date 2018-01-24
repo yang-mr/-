@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/yw/.android/build-cache/e2e5961e435f383278e5a845f5fdc67d3a1614b4/output/res/values/values.xml",
+                    "file": "/root/.android/build-cache/356f54e63ab25b016d2f129a5a844260e48d430c/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

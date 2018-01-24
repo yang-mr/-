@@ -1,46 +1,46 @@
 [
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/color/abc_search_url_text.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/color/abc_hint_foreground_material_dark.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/color/abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/color/abc_primary_text_material_dark.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/color/abc_search_url_text.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/color/switch_thumb_material_light.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/color/abc_secondary_text_material_dark.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/color/abc_secondary_text_material_light.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/color/abc_hint_foreground_material_light.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/color/abc_primary_text_material_light.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/color/switch_thumb_material_dark.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/color/switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/color/abc_primary_text_disable_only_material_light.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/color/abc_hint_foreground_material_light.xml"
     }
 ]

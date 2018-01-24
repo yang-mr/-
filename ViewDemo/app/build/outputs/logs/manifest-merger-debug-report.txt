@@ -1,103 +1,85 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:3:5-38
-		INJECTED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
+		ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:5:5-25:19
-MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:25.4.0] /Users/yw/.android/build-cache/bca794e3bc86c6b3dbc4358f6da04f6bef20a33b/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:25.4.0] /Users/yw/.android/build-cache/c9db074631e0237efa3ee807474583b0ca51d696/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:25.4.0] /Users/yw/.android/build-cache/8235d49c4240ccb516b88f87dae17e33593de555/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:25.4.0] /Users/yw/.android/build-cache/9a7a23592327e854700381ea2648d11ddbb27415/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/yw/.android/build-cache/94da40474cb0b6725c63b44477e2678f262ac53a/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/yw/.android/build-cache/5d8c8dc6b382b18f9cfd047f28f2aad85e7a0e74/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-core-ui:25.4.0] /Users/yw/.android/build-cache/8dd05844ac7a98bfaf68b6fd31fce296ac57e704/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:25.4.0] /Users/yw/.android/build-cache/9be2304ca6a4bf42bb3b3aed355ac419cf022b1c/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/yw/.android/build-cache/4f50053138e8bfffe52a7b0f7641659c60ba842f/output/AndroidManifest.xml:9:5-20
+ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:5:5-25:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /root/.android/build-cache/5b78c267688e2587e4fb6b8a60eb25ed8988ae64/output/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.5.0] /root/.android/build-cache/137d39a5d43d5468045629038ea7771a87781618/output/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] /root/.android/build-cache/24a021100b27c68777564728a68babba35cff5bb/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:8:9-41
 	android:supportsRtl
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:10:9-35
 	android:roundIcon
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:9:9-54
 	android:allowBackup
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:11:9-40
-activity#com.example.yw.viewdemo.MainActivity
-ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:12:9-50
-	android:name
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:12:19-47
-activity#com.example.yw.viewdemo.GetLeftActivity
-ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:13:9-53
-	android:name
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:13:19-50
-activity#com.example.yw.viewdemo.WindowActivity
-ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:14:9-16:20
-	android:name
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:14:19-49
+		ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:11:9-40
 activity#com.example.yw.viewdemo.IpcActivity
-ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:17:9-49
+ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:12:9-49
 	android:name
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:17:19-46
+		ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:12:19-46
 activity#com.example.yw.viewdemo.SharedPreferencesActivity
-ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:18:9-24:20
+ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:13:9-63
 	android:name
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:18:19-60
+		ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:13:19-60
+activity#com.example.yw.viewdemo.MainActivity
+ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:14:9-59
+	android:name
+		ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:14:19-47
+activity#com.example.yw.viewdemo.GetLeftActivity
+ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:15:9-53
+	android:name
+		ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:15:19-50
+activity#com.example.yw.viewdemo.WindowActivity
+ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:16:9-17:20
+	android:name
+		ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:16:19-49
+activity#com.example.yw.viewdemo.glide.GlideActivity
+ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:18:19-54
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml:22:27-74
 uses-sdk
-INJECTED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.4.0] /Users/yw/.android/build-cache/bca794e3bc86c6b3dbc4358f6da04f6bef20a33b/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.4.0] /Users/yw/.android/build-cache/c9db074631e0237efa3ee807474583b0ca51d696/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.4.0] /Users/yw/.android/build-cache/8235d49c4240ccb516b88f87dae17e33593de555/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.4.0] /Users/yw/.android/build-cache/9a7a23592327e854700381ea2648d11ddbb27415/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/yw/.android/build-cache/94da40474cb0b6725c63b44477e2678f262ac53a/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/yw/.android/build-cache/5d8c8dc6b382b18f9cfd047f28f2aad85e7a0e74/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:25.4.0] /Users/yw/.android/build-cache/8dd05844ac7a98bfaf68b6fd31fce296ac57e704/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.4.0] /Users/yw/.android/build-cache/9be2304ca6a4bf42bb3b3aed355ac419cf022b1c/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/yw/.android/build-cache/4f50053138e8bfffe52a7b0f7641659c60ba842f/output/AndroidManifest.xml:5:5-7:41
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.4.0] /Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/AndroidManifest.xml:23:9-75
+INJECTED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:27.0.2] /root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /root/.android/build-cache/c4b23a5915ae03d1c16d354d895c624a44239da2/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /root/.android/build-cache/6896bc643e425d39b250bc8e34feab8119368e83/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /root/.android/build-cache/5b78c267688e2587e4fb6b8a60eb25ed8988ae64/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.5.0] /root/.android/build-cache/137d39a5d43d5468045629038ea7771a87781618/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] /root/.android/build-cache/24a021100b27c68777564728a68babba35cff5bb/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.0.2] /root/.android/build-cache/91181c1c03330b25e3c5a9835e26dc85ed096d69/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /root/.android/build-cache/672aa18e8da4b43ced4b7c60a0888b8aeeefa8aa/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /root/.android/build-cache/724f4b1c1af05dc55cd360ab8d3972f1d4a64232/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /root/.android/build-cache/b0932e0d53521ded6eaa9d346e28675c69a5fd93/output/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /root/.android/build-cache/03b990f7495fac8bc803ff88d7328c2419a84c49/output/AndroidManifest.xml:20:5-22:41
 	android:targetSdkVersion
-		INJECTED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yw/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.4.0] /Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:25.4.0] /Users/yw/.android/build-cache/bca794e3bc86c6b3dbc4358f6da04f6bef20a33b/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:25.4.0] /Users/yw/.android/build-cache/c9db074631e0237efa3ee807474583b0ca51d696/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:25.4.0] /Users/yw/.android/build-cache/8235d49c4240ccb516b88f87dae17e33593de555/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:25.4.0] /Users/yw/.android/build-cache/9a7a23592327e854700381ea2648d11ddbb27415/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/yw/.android/build-cache/94da40474cb0b6725c63b44477e2678f262ac53a/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/yw/.android/build-cache/5d8c8dc6b382b18f9cfd047f28f2aad85e7a0e74/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-core-ui:25.4.0] /Users/yw/.android/build-cache/8dd05844ac7a98bfaf68b6fd31fce296ac57e704/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:25.4.0] /Users/yw/.android/build-cache/9be2304ca6a4bf42bb3b3aed355ac419cf022b1c/output/AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:appcompat-v7:25.4.0] /Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/AndroidManifest.xml:28:13-35
-	android:name
-		ADDED from [com.android.support:appcompat-v7:25.4.0] /Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/AndroidManifest.xml:27:13-51
+		INJECTED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jack/Study_Notes/ViewDemo/app/src/main/AndroidManifest.xml

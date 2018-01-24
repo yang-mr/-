@@ -14,3 +14,6 @@ adb -s kylin shell am start -n com.cafari.boxserver/com.cafari.boxserver.ui.Laun
 
 #obtain mac address 
 #adb shell  cat /sys/class/net/wlan0/address
+#copy file
+#adb -s kylin pull /storage/hdd/cafari/.database ~/database
+

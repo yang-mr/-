@@ -1,42 +1,50 @@
 [
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/anim/abc_slide_in_bottom.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/anim/abc_fade_out.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/anim/abc_fade_in.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/anim/abc_slide_out_top.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/anim/abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/anim/abc_popup_enter.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/tooltip_exit.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/anim/tooltip_exit.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/anim/abc_slide_in_top.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/anim/abc_popup_exit.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/anim/abc_fade_out.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/anim/abc_slide_out_bottom.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/tooltip_enter.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/anim/tooltip_enter.xml"
+    },
+    {
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/root/.android/build-cache/9a9fefe25547f56911830838e505d572b5c69a4e/output/res/anim/abc_popup_exit.xml"
     }
 ]

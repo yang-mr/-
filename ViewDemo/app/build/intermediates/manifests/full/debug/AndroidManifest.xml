@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="23"
-        android:targetSdkVersion="25" />
+        android:targetSdkVersion="26" />
 
     <application
         android:allowBackup="true"
@@ -15,22 +15,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.yw.viewdemo.IpcActivity" />
+        <activity android:name="com.example.yw.viewdemo.SharedPreferencesActivity" />
         <activity android:name="com.example.yw.viewdemo.MainActivity" />
         <activity android:name="com.example.yw.viewdemo.GetLeftActivity" />
         <activity android:name="com.example.yw.viewdemo.WindowActivity" >
         </activity>
-        <activity android:name="com.example.yw.viewdemo.IpcActivity" />
-        <activity android:name="com.example.yw.viewdemo.SharedPreferencesActivity" >
+        <activity android:name="com.example.yw.viewdemo.glide.GlideActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="25.4.0" />
     </application>
 
 </manifest>

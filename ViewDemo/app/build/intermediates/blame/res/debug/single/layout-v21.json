@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/root/.android/build-cache/b0932e0d53521ded6eaa9d346e28675c69a5fd93/output/res/layout-v21/notification_template_custom_big.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/layout-v21/notification_action.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/root/.android/build-cache/b0932e0d53521ded6eaa9d346e28675c69a5fd93/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/root/.android/build-cache/b0932e0d53521ded6eaa9d346e28675c69a5fd93/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "/Users/yw/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/yw/.android/build-cache/564a855bda84e3c883c1a4050d4e860c54fa881d/output/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "/home/jack/Study_Notes/ViewDemo/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/root/.android/build-cache/b0932e0d53521ded6eaa9d346e28675c69a5fd93/output/res/layout-v21/notification_action.xml"
     }
 ]
