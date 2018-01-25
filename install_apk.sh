@@ -1,5 +1,5 @@
 #!/bin/sh
-adb connect 192.168.50.211
+#adb connect 192.168.50.211
 adb -s kylin uninstall com.cafari.boxserver
 
 adb -s kylin shell "rm -rR /storage/emulated/0/cafari"
