@@ -1,0 +1,71 @@
+
+
+
+01 -30 09:34:50.008 11240-11258/com.cafari.boxserver D/BluetoothGattServer: onServerConnectionState() - status=0 serverIf=5 device=3C:A6:16:89:C1:3F
+01-30 09:34:50.009 11240-11258/com.cafari.boxserver I/cafeboxserver:  In onConnectionStateChange
+01-30 09:34:50.009 11240-11258/com.cafari.boxserver I/cafeboxserver: onConnectionStateChange:status ---> success
+01-30 09:34:50.009 11240-11258/com.cafari.boxserver I/cafeboxserver: onConnectionStateChange ---> connected
+01-30 09:34:50.009 11240-11258/com.cafari.boxserver I/cafeboxserver: onConnectionStateChange:0
+01-30 09:34:51.384 11240-11404/com.cafari.boxserver I/cafeboxserver: onCharacteristicWriteRequest()
+    01-30 09:34:51.385 11240-11404/com.cafari.boxserver I/cafeboxserver: 蓝牙获取数据:wifistatus
+    01-30 09:34:51.385 11240-11404/com.cafari.boxserver I/cafeboxserver: 返回网络状态：2
+    01-30 09:34:51.386 11240-11404/com.cafari.boxserver I/cafeboxserver: sendResponse
+    01-30 09:34:51.829 11240-11257/com.cafari.boxserver I/cafeboxserver: onCharacteristicReadRequest()
+    01-30 09:34:52.248 11240-11320/com.cafari.boxserver I/cafeboxserver: onCharacteristicWriteRequest()
+    01-30 09:34:52.248 11240-11320/com.cafari.boxserver I/cafeboxserver: 蓝牙获取数据:ssid
+    01-30 09:34:52.251 11240-11320/com.cafari.boxserver I/cafeboxserver: sendResponse
+    01-30 09:34:52.814 11240-11258/com.cafari.boxserver I/cafeboxserver: onCharacteristicReadRequest()
+    01-30 09:34:53.182 11240-11404/com.cafari.boxserver I/cafeboxserver: onCharacteristicWriteRequest()
+    01-30 09:34:53.183 11240-11404/com.cafari.boxserver I/cafeboxserver: 蓝牙获取数据:ip
+    01-30 09:34:53.187 11240-11404/com.cafari.boxserver I/cafeboxserver: sendResponse
+    01-30 09:34:53.551 11240-11257/com.cafari.boxserver I/cafeboxserver: onCharacteristicReadRequest()
+    01-30 09:34:57.786 11240-11258/com.cafari.boxserver I/cafeboxserver: onCharacteristicReadRequest()
+    01-30 09:34:58.308 11240-11374/com.cafari.boxserver I/cafeboxserver: 286
+    01-30 09:34:58.308 11240-11374/com.cafari.boxserver I/cafeboxserver: bytesize286
+    01-30 09:34:58.309 11240-11374/com.cafari.boxserver I/cafeboxserver: http请求：{"AppId":"60076467277E4B1DD42F21B4DB5BD5A7","TimeStamp":1517304897701,"accessId":"$2a$08$SxW5GegM39bjJfPmzmwShO\/2En6moDpiwixRZRpwhzeK8X1CP3KJ6","cmdName":"bindUserDevice","data":{"deviceSn":""},"deviceId":"","reqType":4,"sign":"488648927a9ccc1cde93ac042cf024c4","userId":"1111@qq.com"}
+    01-30 09:34:58.328 11240-11374/com.cafari.boxserver I/cafeboxserver: {"userId":"1111@qq.com","accessId":"$2a$08$SxW5GegM39bjJfPmzmwShO\/2En6moDpiwixRZRpwhzeK8X1CP3KJ6","deviceId":"","cmdName":"bindUserDevice","reqType":4,"code":1,"info":"成功"}
+    01-30 09:34:58.334 11240-11374/com.cafari.boxserver I/cafeboxserver: change the permisson  1 yiliangaccess
+    01-30 09:34:58.334 11240-11374/com.cafari.boxserver I/cafeboxserver: change the permisson  2 $2a$08$SxW5GegM39bjJfPmzmwShO/2En6moDpiwixRZRpwhzeK8X1CP3KJ6
+    01-30 09:34:58.350 11240-11374/com.cafari.boxserver I/cafeboxserver: $2a$08$SxW5GegM39bjJfPmzmwShO/2En6moDpiwixRZRpwhzeK8X1CP3KJ6 0  true
+    01-30 09:34:58.358 11240-11374/com.cafari.boxserver I/cafeboxserver: upReportChangeOwer
+    01-30 09:34:58.359 11240-11374/com.cafari.boxserver I/cafeboxserver: sendMessage
+    01-30 09:34:58.361 11240-11374/com.cafari.boxserver I/cafeboxserver: http返回：{"userId":"1111@qq.com","accessId":"$2a$08$SxW5GegM39bjJfPmzmwShO\/2En6moDpiwixRZRpwhzeK8X1CP3KJ6","deviceId":"","cmdName":"bindUserDevice","reqType":4,"code":1,"info":"成功"}
+    01-30 09:34:58.363 11240-11599/com.cafari.boxserver I/cafeboxserver: start sending data====
+    01-30 09:35:00.107 11240-11599/com.cafari.boxserver I/cafeboxserver: Reponse Queue:amq.gen-XNr1tNvruXHl9O1ltath-g
+    01-30 09:35:00.111 11240-11599/com.cafari.boxserver I/cafeboxserver: 发送数据:{"data":{"appCode":1,"atoCode":100000,"locationIp":"192.168.50.14","port":8080,"authInfo":[{"accessId":"yiliangaccess","permission":1},{"accessId":"$2a$08$3XWEjxiSldmH0\/OEi0KQfue9m5RM4I1pnEx7jNermjnOjWlHkMchq","permission":0},{"accessId":"$2a$08$zRs9QVL4Urkcy83ZrpUHneGWAgDKlJW3nnTIyYmxu1wfAEUvWGeUa","permission":0},{"accessId":"$2a$08$SxW5GegM39bjJfPmzmwShO\/2En6moDpiwixRZRpwhzeK8X1CP3KJ6","permission":0}]},"deviceId":"c44eac125aa4","cmdName":"updateDeviceLocation"}
+    01-30 09:35:00.610 11240-11599/com.cafari.boxserver I/cafeboxserver: 等待...
+    01-30 09:35:02.624 11240-11257/com.cafari.boxserver I/cafeboxserver: onCharacteristicReadRequest()
+    01-30 09:35:02.711 11240-11258/com.cafari.boxserver D/BluetoothGattServer: onServerConnectionState() - status=0 serverIf=5 device=3C:A6:16:89:C1:3F
+    01-30 09:35:02.711 11240-11258/com.cafari.boxserver I/cafeboxserver:  In onConnectionStateChange
+    01-30 09:35:02.711 11240-11258/com.cafari.boxserver I/cafeboxserver: onConnectionStateChange:status ---> success
+    01-30 09:35:02.711 11240-11258/com.cafari.boxserver I/cafeboxserver: onConnectionStateChange ---> disconnected
+    01-30 09:35:02.711 11240-11258/com.cafari.boxserver I/cafeboxserver: onConnectionStateChange:0
+    01-30 09:35:03.032 11240-11377/com.cafari.boxserver I/cafeboxserver: 292
+    01-30 09:35:03.032 11240-11377/com.cafari.boxserver I/cafeboxserver: bytesize292
+    01-30 09:35:03.032 11240-11377/com.cafari.boxserver I/cafeboxserver: http请求：{"AppId":"60076467277E4B1DD42F21B4DB5BD5A7","TimeStamp":1517304902485,"accessId":"$2a$08$SxW5GegM39bjJfPmzmwShO\/2En6moDpiwixRZRpwhzeK8X1CP3KJ6","cmdName":"bindUserDevice","data":{"deviceSn":""},"deviceId":"c44eac","reqType":4,"sign":"5bcd46f270819a43959a25c2f3ead5ca","userId":"1111@qq.com"}
+    01-30 09:35:03.050 11240-11377/com.cafari.boxserver I/cafeboxserver: {"userId":"1111@qq.com","accessId":"$2a$08$SxW5GegM39bjJfPmzmwShO\/2En6moDpiwixRZRpwhzeK8X1CP3KJ6","deviceId":"c44eac","cmdName":"bindUserDevice","reqType":4,"code":1,"info":"成功"}
+    01-30 09:35:03.054 11240-11377/com.cafari.boxserver I/cafeboxserver: change the permisson  1 yiliangaccess
+    01-30 09:35:03.054 11240-11377/com.cafari.boxserver I/cafeboxserver: change the permisson  2 $2a$08$SxW5GegM39bjJfPmzmwShO/2En6moDpiwixRZRpwhzeK8X1CP3KJ6
+    01-30 09:35:03.067 11240-11377/com.cafari.boxserver I/cafeboxserver: $2a$08$SxW5GegM39bjJfPmzmwShO/2En6moDpiwixRZRpwhzeK8X1CP3KJ6 0  true
+    01-30 09:35:03.075 11240-11377/com.cafari.boxserver I/cafeboxserver: upReportChangeOwer
+    01-30 09:35:03.076 11240-11377/com.cafari.boxserver I/cafeboxserver: sendMessage
+    01-30 09:35:03.077 11240-11377/com.cafari.boxserver I/cafeboxserver: http返回：{"userId":"1111@qq.com","accessId":"$2a$08$SxW5GegM39bjJfPmzmwShO\/2En6moDpiwixRZRpwhzeK8X1CP3KJ6","deviceId":"c44eac","cmdName":"bindUserDevice","reqType":4,"code":1,"info":"成功"}
+    01-30 09:35:03.079 11240-11603/com.cafari.boxserver I/cafeboxserver: start sending data====
+    01-30 09:35:03.668 11240-11376/com.cafari.boxserver I/cafeboxserver: 298
+    01-30 09:35:03.668 11240-11376/com.cafari.boxserver I/cafeboxserver: bytesize298
+    01-30 09:35:03.668 11240-11376/com.cafari.boxserver I/cafeboxserver: http请求：{"AppId":"60076467277E4B1DD42F21B4DB5BD5A7","TimeStamp":1517304903052,"accessId":"$2a$08$SxW5GegM39bjJfPmzmwShO\/2En6moDpiwixRZRpwhzeK8X1CP3KJ6","cmdName":"bindUserDevice","data":{"deviceSn":""},"deviceId":"c44eac125aa4","reqType":4,"sign":"8e1b3b793f6e53e3307e9193321c95ef","userId":"1111@qq.com"}
+    01-30 09:35:03.686 11240-11376/com.cafari.boxserver I/cafeboxserver: {"userId":"1111@qq.com","accessId":"$2a$08$SxW5GegM39bjJfPmzmwShO\/2En6moDpiwixRZRpwhzeK8X1CP3KJ6","deviceId":"c44eac125aa4","cmdName":"bindUserDevice","reqType":4,"code":1,"info":"成功"}
+    01-30 09:35:03.690 11240-11376/com.cafari.boxserver I/cafeboxserver: change the permisson  1 yiliangaccess
+    01-30 09:35:03.690 11240-11376/com.cafari.boxserver I/cafeboxserver: change the permisson  2 $2a$08$SxW5GegM39bjJfPmzmwShO/2En6moDpiwixRZRpwhzeK8X1CP3KJ6
+    01-30 09:35:03.703 11240-11376/com.cafari.boxserver I/cafeboxserver: $2a$08$SxW5GegM39bjJfPmzmwShO/2En6moDpiwixRZRpwhzeK8X1CP3KJ6 0  true
+    01-30 09:35:03.711 11240-11376/com.cafari.boxserver I/cafeboxserver: upReportChangeOwer
+    01-30 09:35:03.712 11240-11376/com.cafari.boxserver I/cafeboxserver: sendMessage
+    01-30 09:35:03.713 11240-11376/com.cafari.boxserver I/cafeboxserver: http返回：{"userId":"1111@qq.com","accessId":"$2a$08$SxW5GegM39bjJfPmzmwShO\/2En6moDpiwixRZRpwhzeK8X1CP3KJ6","deviceId":"c44eac125aa4","cmdName":"bindUserDevice","reqType":4,"code":1,"info":"成功"}
+    01-30 09:35:03.715 11240-11604/com.cafari.boxserver I/cafeboxserver: start sending data====
+    01-30 09:35:03.936 11240-11603/com.cafari.boxserver I/cafeboxserver: Reponse Queue:amq.gen-Q2qg1X5DHEfXDrba55Oxqg
+    01-30 09:35:03.938 11240-11603/com.cafari.boxserver I/cafeboxserver: 发送数据:{"data":{"appCode":1,"atoCode":100000,"locationIp":"192.168.50.14","port":8080,"authInfo":[{"accessId":"yiliangaccess","permission":1},{"accessId":"$2a$08$3XWEjxiSldmH0\/OEi0KQfue9m5RM4I1pnEx7jNermjnOjWlHkMchq","permission":0},{"accessId":"$2a$08$zRs9QVL4Urkcy83ZrpUHneGWAgDKlJW3nnTIyYmxu1wfAEUvWGeUa","permission":0},{"accessId":"$2a$08$SxW5GegM39bjJfPmzmwShO\/2En6moDpiwixRZRpwhzeK8X1CP3KJ6","permission":0}]},"deviceId":"c44eac125aa4","cmdName":"updateDeviceLocation"}
+    01-30 09:35:04.326 11240-11604/com.cafari.boxserver I/cafeboxserver: Reponse Queue:amq.gen-qsOkHgTA5iEUZkUNe1D6LQ
+    01-30 09:35:04.328 11240-11604/com.cafari.boxserver I/cafeboxserver: 发送数据:{"data":{"appCode":1,"atoCode":100000,"locationIp":"192.168.50.14","port":8080,"authInfo":[{"accessId":"yiliangaccess","permission":1},{"accessId":"$2a$08$3XWEjxiSldmH0\/OEi0KQfue9m5RM4I1pnEx7jNermjnOjWlHkMchq","permission":0},{"accessId":"$2a$08$zRs9QVL4Urkcy83ZrpUHneGWAgDKlJW3nnTIyYmxu1wfAEUvWGeUa","permission":0},{"accessId":"$2a$08$SxW5GegM39bjJfPmzmwShO\/2En6moDpiwixRZRpwhzeK8X1CP3KJ6","permission":0}]},"deviceId":"c44eac125aa4","cmdName":"updateDeviceLocation"}
+    01-30 09:35:04.571 11240-11603/com.cafari.boxserver I/cafeboxserver: 等待...
+    01-30 09:35:04.819 11240-11604/com.cafari.boxserver I/cafeboxserver: 等待...
+

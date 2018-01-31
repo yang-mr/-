@@ -288,3 +288,23 @@ CafeBoxService 调通了createOperateCode
 杨维 2018.1.24 工作日报
   集成bug收集工具bugly, 方便后面内测
   增加uploading image 用户不能退出账号
+
+杨维 2018.1.25 工作日报
+  去除 和适配userId hard code
+  check in map module
+
+杨维 2018.1.26 工作日报
+  修改地图显示照片的右上角显示的数量以及定位失效的问题
+  设置拥有者后刷新用户列表
+
+杨维 2018.1.29 工作日报
+  用户管理界面的代码的整理及其编写
+  用户退出后清理有关数据
+
+杨维 2018.1.30 工作日报
+ 增加用戶清除緩存入口
+ client的一些測試（網絡變化，getnatinfo command etc)
+
+杨维 2018.1.31 工作日报
+ 修改地图显示marker,以适配网络加载图片
+ 上传图片过程中sort photo 空指针异常修复

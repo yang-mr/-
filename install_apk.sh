@@ -14,6 +14,21 @@ adb -s kylin shell am start -n com.cafari.boxserver/com.cafari.boxserver.ui.Laun
 
 #obtain mac address 
 #adb shell  cat /sys/class/net/wlan0/address
+
 #copy file
 #adb -s kylin pull /storage/hdd/cafari/.database ~/database
 
+#1. Format the disk device (may be optional):
+#busybox fdisk -u /dev/block/vold/disk:8,0
+
+#2. Create file system on the device:
+#mke2fs -t ext4 /dev/block/vold/disk:8,0
+
+#3. Mount the file system
+#mount -t ext4  /dev/block/vold/disk:8,0 /storage/cafebox」
+
+# look device all package
+# adb -s kylin shell pm list package -3
+
+# look app desctipiton
+# adb -s kylin shell dumpsys package com.zjxx.android.cafebox
