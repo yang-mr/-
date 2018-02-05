@@ -1,0 +1,6 @@
+  task subTask1 << {
+    println "my name is subTask1 from subProject2"
+  }
+  task subTask2 << {
+    println "my name is subTask2 from subProject2"
+  }

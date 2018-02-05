@@ -1,0 +1,53 @@
+// 所有项目包括根项目
+allprojects {
+  task allTask << {
+    println project.name
+  }
+}
+
+// 所有子项目
+subprojects {
+  task subTask << {
+    println project.name
+  }
+}
+
+configure(allprojects.findAll{ it.name.startsWith('sub') }) {
+  allTask << {
+    println 'this is a sub project'
+  }
+}
+
+
+// *对子project单独配置*
+project(':subProject'){
+  task sub <<{
+    println project.name
+  }
+}
+
+
+// *依赖关系是基于Task的，而不是整个Project的
+project(':subProject2'){
+  // or 在subProject2目录下的build.gradle文件下创建task
+  task subTask1 << {
+    println "my name is subTask1 from subProject2"
+  }
+  task subTask2 << {
+    println "my name is subTask2 from subProject2"
+  }
+}
+
+task rootTask1(dependsOn: ':subProject2:subTask1') << {
+  println "name name is rootTask1 from root"
+}
+task rootTask2(dependsOn: rootTask1) << {
+  println "name name is rootTask2 from root"
+}
+
+
+
+
+
+
+

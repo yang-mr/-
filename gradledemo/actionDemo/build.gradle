@@ -12,3 +12,105 @@ task hello (group: 'testGroup', dependsOn: [second, first]) {
     logger.quiet "test Logger"
   }
 }
+
+// 把当前目录下的frorm文件里的东西 copy一份到当前目录下的to文件夹里
+task testFromTo (type: Copy) {
+  from 'from'
+  into 'to'
+}
+
+// 查看tasks 的有关信息
+task showTasks << {
+  println "tasks.class: " + tasks.class
+  println "tasks.size: " + tasks.size()
+}
+
+// 创建task的另一种方式:TaskContainer的create()方法
+tasks.create(name: 'testTaskContainer') << {
+  println "创建task的另一种方式 TaskContainer.create"
+}
+
+
+// *依赖关系*
+task test1 << {
+  println "my name is test1"
+}
+task test2(dependsOn: test1) << {
+  println "my name is test2"
+}
+// or dependsOn
+task test3 << {
+  println "my name is test3, 我是测试第二种依赖关系"
+}
+test3.dependsOn test1
+
+
+// *配置Task*
+// 系统默认定义的Property有description logger等.
+// 特定的Task类型还有特定的Property, 比如type: copy的task就含有from into
+// Property.我们也可以动态的给Task加入额外的Property
+task test4 << {
+  description = "my name is 系统默认的property"
+  println description
+}
+// 通过闭关的方式配置task property
+task test5 << {
+  println description
+}
+test5 {
+  // 因为Gradle在执行Task时分为两个阶段，首先是配置阶段，然后才是实际执行阶段
+  description = "我是通过闭关的方式配置task的property"
+}
+// 通过configure配置task的property
+task test6 << {
+ println description
+}
+test6.configure {
+ description = '我是通过configure配置task的property的'
+}
+
+
+// *增量式构建*
+// 在增量式构建中，我们为每个Task定义输入（inputs）和输入（outputs），如果在执行一个Task时，如果它的输入和输出与前一次执行时没有发生变化，那么Gradle便会认为该Task是最新的（UP-TO-DATE），因此Gradle将不予执行
+task test7 {
+  def sources = fileTree('sourceDIR')
+  def dest = file('dest.mk')
+
+  // inputs.dir sources
+  // outputs.file dest  
+  
+  doLast {
+    dest.withPrintWriter { writer ->
+      sources.each {source ->
+        writer.println source.text
+      }
+    }
+  }
+}
+
+
+// *自定义Task类型*
+class MyTask extends DefaultTask {
+  @Optional  // 使用该Task 类型时可选参数
+  String name = 'my name is default name'
+
+  @TaskAction 
+  def test() {
+    println "name: $name"
+  }
+}
+task myts (type: groovy.myTask)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
