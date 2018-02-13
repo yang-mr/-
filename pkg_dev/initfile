@@ -1,5 +1,9 @@
 Drink5Espresso!
 
+md5(appId + timeStamp + ccessId + cmdName + deviceId + reqType + userId + 21DB9F24AE14A5F05F425B68DDECFB4E) 
+    
+"60076467277E4B1DD42F21B4DB5BD5A71518318161284$2a$08$4bmtnhDRvIaO.ox0791eW.3yzltDczkdmZyT.6I1xce0HIjDEdspWgetnetinfoc44eac125aa4411@qq.com"
+
 http://cafe01.cafari.com/apks/53-17-20-11-2017/
 
 adb -s 192.168.50.222:5555 shell am start -n com.cafari.boxserver/com.cafari.boxserver.ui.MainActivity

@@ -110,6 +110,57 @@
        }
  */
 
+/**
+ * @api {post} /port/getnatinfo User getnatinfo 
+ * @apiName getnatinfo 
+ * @apiGroup CentraServerGroup
+ *
+ * @apiParam {String} AppId .
+ * @apiParam {Number} TimeStamp time stamp.
+ * @apiParam {String} cmdName .
+ * @apiParam {String} accessId User os type.
+ * @apiParam {String} deviceId .
+ * @apiParam {Number} reqType .
+ * @apiParam {String} sign .
+ * @apiParam {String} userId .
+ *
+ * @apiParamExample {json} Request-Example:
+    {
+       "AppId": "60076467277E4B1DD42F21B4DB5BD5A7",
+       "TimeStamp": 1514955556940,
+       "cmdName": "getnatinfo",
+       "accessId": "$2a$08$P2eikQxXElPqobjl2HRWB.b9pyU1G8UTnEHDHF2EbZuhBP5BPTkNS",
+       "deviceId": "54c9df6653ce",
+       "reqType": 4,
+       "sign": "f0d0e1501b37b901e30fa7ecfc07ad6a",
+       "userId": "66@qq.com"
+     }
+ *    
+ * @apiSuccess {String} accessId Users unique.
+ *
+ * @apiSuccessExample Success-Response:
+ *     HTTP/1.1 200 OK
+     {
+       "user": {
+         "verified": false,
+         "accessId": "$2a$08$eQValOjCAQ2NNOEIHK\/SkuVbtA0JzKQFvXoVVr7Jsh4lizeQYIatS",
+         "userId": "66@qq.com",
+         "password": "$2a$08$dpo4OI42liP6xdXpJbc3FeGU\/TbgPPFhwuPoBBZiy8XB30OHNgkLe",
+         "accountType": 1,
+         "updatedAt": "2018-01-03T04:59:12.698Z",
+         "createdAt": "2018-01-03T04:59:12.698Z"
+       },
+       "code": 1
+     }
+ * @apiError message error message.
+ *
+ * @apiErrorExample Error-Response:
+     {
+         "code": "2001",
+         "info": "unable to verify this Device for this user"
+         }
+ */
+
 
 /**
  * @apiDefine DeviceFromBServerGroup DeviceFromB-Server 

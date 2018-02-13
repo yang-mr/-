@@ -1,5 +1,9 @@
 Drink5Espresso!
 
+1 get zhengshu
+2 peizhi ssl 
+3 ssl 8080 2 sslport 8443 getnatinfo sslport param 
+
 mke2fs -t ext4 /dev/block/vold/disk:8,0
 
  维度：23.00383758544922 经度：113.34578704833984
