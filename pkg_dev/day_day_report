@@ -341,4 +341,7 @@ CafeBoxService 调通了createOperateCode
   整理c-server request command &&  params
   一些字段的确认，常量的独立
 
-
+杨维 2018.2.22 工作日报
+  整理 getPhotoByLocation command
+  添加unbind box 跟b-server的交互
+  修复上传照片时，重复添加相同的照片
