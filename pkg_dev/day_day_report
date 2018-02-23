@@ -345,3 +345,7 @@ CafeBoxService 调通了createOperateCode
   整理 getPhotoByLocation command
   添加unbind box 跟b-server的交互
   修复上传照片时，重复添加相同的照片
+
+杨维 2018.2.23 工作日报
+  给ios整理蓝牙配对的特征码
+  初步解决蓝牙配网成功后不能正常request bind box的问题
