@@ -36,25 +36,24 @@ public class Test {
 
 	private static final String CERTIFACATE_FILE = "keystore.p12";
 	private static final String TRUST_CERTIFACATE_FILE = "trust_store";
-	private static final String CERTIFACATE_PASS = "Cafari2017!";
+	private static final String CERTIFACATE_PASS = "99";
 	private static final String CERTIFACATE_ALIAS = "test.clientssl.cafari.com";
-	private static final String TARGET_URL = "https://38fdc237562267a08ac56978ea1ce303.cafe.cphotobox.com:58181";
-	
-	/*static {
+	// private static String TARGET_URL = "https://38fdc237562267a08ac56978ea1ce303.cafe.cphotobox.com:58181";
+	private static String TARGET_URL = "https://192.168.50.14:8443/command/WeiPhoto/getUserList.json";
+	static {
         javax.net.ssl.HttpsURLConnection.setDefaultHostnameVerifier(
                 new javax.net.ssl.HostnameVerifier() {
-
                     public boolean verify(String hostname,
                                           javax.net.ssl.SSLSession sslSession) {
                         //if (hostname.equals("38fdc237562267a08ac56978ea1ce303.cafe.cphotobox.com")) {
-                    	if (hostname.equals("38fdc237562267a08ac56978ea1ce303.cafe.cphotobox.com")) {
+                    	if (hostname.equals("192.168.50.14")) {
                             return true;
                         }
                         return false;
                     }
                 }
         );
-    }*/
+    }
 	
 	public static void main(String[] args) {
 		String targetURL = TARGET_URL;
@@ -70,7 +69,7 @@ public class Test {
 		       //System.setProperty("sun.security.ssl.allowUnsafeRenegotiation", "true");
 		       connection = (HttpsURLConnection) url.openConnection();
 
-		       //connection.setRequestMethod("POST");
+		       connection.setRequestMethod("POST");
 		       connection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
 		       connection.setRequestProperty("Content-Language", "en-US");
 
@@ -88,11 +87,9 @@ public class Test {
 		       }
 		       System.out.println(lines.toString());
 		       //logger.info("response from " + targetURL + ":" + LINE_BREAKER + lines);
-
 		   } catch (Exception e) {
 			   e.printStackTrace();
 		   }
-		
 	}
 	
 	public static SSLSocketFactory getFactory(File keyStoreFile, File trustStoreFile, String password){
@@ -115,7 +112,7 @@ public class Test {
             
             KeyStore trustStore = KeyStore.getInstance("PKCS12");
             InputStream trustInput = new FileInputStream(trustStoreFile);
-            trustStore.load(trustInput, password.toCharArray());
+            trustStore.load(trustInput, "Cafari2017!".toCharArray());
             trustInput.close();
             
             
@@ -143,6 +140,4 @@ public class Test {
 
         return sslSocketFactory;
     }
-	
-	
 }

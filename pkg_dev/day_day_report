@@ -358,3 +358,20 @@ CafeBoxService 调通了createOperateCode
 杨维 2018.2.26 工作日报
   侧边栏添加显示box存储空间等信息
   cafeBox 管理界面的修改以及调整
+  
+杨维 2018.2.27 工作日报
+  getTrustStore getKeyStore的接口的调试 load keyStore file
+  修改用户对盒子没有权限的情况
+
+杨维 2018.2.28 工作日报
+  checkin SSL相关代码 
+  
+杨维 2018.3.1 工作日报
+  client端集成SSL
+  图片的url切换为Https
+
+杨维 2018.3.2 工作日报
+  增加微信登录
+  增加ownedDevice 逻辑
+  去除不必要的url里的字符替换
+  图片的url切换为Https

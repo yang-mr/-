@@ -1,5 +1,10 @@
 Drink5Espresso!
 
+c774cb78a7822bf5b6b6ac5820eb5d26
+
+self
+77963a168ae2a6df1cec94a0020f9d58
+
 1 get zhengshu
 2 peizhi ssl 
 3 ssl 8080 2 sslport 8443 getnatinfo sslport param 
