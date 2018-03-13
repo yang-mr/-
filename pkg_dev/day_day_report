@@ -375,3 +375,31 @@ CafeBoxService 调通了createOperateCode
   增加ownedDevice 逻辑
   去除不必要的url里的字符替换
   图片的url切换为Https
+
+杨维 2018.3.5 工作日报
+  修改用户状态逻辑的处理 
+  fixed host port 自动的替换
+
+杨维 2018.3.6 工作日报
+  增加首页显示的时间分类
+  fixed integer.parseInt() 异常
+
+杨维 2018.3.7 工作日报
+  checkin photoFragment相关数据
+  checkin siteFragment相关数据
+
+杨维 2018.3.8 工作日报
+  处理photoFragment 和 siteFragment里面的一些异常情况
+  增加一些权限管理(手机定位等)
+
+杨维 2018.3.9 工作日报
+  修改一些显示布局
+  修改非wifi下不能上传图片的情况
+
+杨维 2018.3.12 工作日报
+  增加用户重新给盒子配网的入口，方便迁移盒子
+  用户绑定盒子，如果手机跟盒子网络环境不同，增加拦截
+  
+杨维 2018.3.13 工作日报
+  photoFragment增加删除图片操作(长按photo)
+  调整用户管理界面  
