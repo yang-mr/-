@@ -36,11 +36,14 @@ android.iws:则主要是包含了一些个人工作区的设置.
 
 到目前为止,我们就完成了源码准备工作.
 
-
-
 source build/envsetup.sh
 
 lunch
 
 emulator
-
+	
+        多一个keystorekey字段  值为用户登录或者注册的password
+	GETTRUSTSTORE：
+		http://cafe03.cafari.com/user/truststore/
+	GETKEYSTORE：
+		http://cafe03.cafari.com/user/truststore/user/keystore/
