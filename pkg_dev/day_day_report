@@ -403,3 +403,11 @@ CafeBoxService 调通了createOperateCode
 杨维 2018.3.13 工作日报
   photoFragment增加删除图片操作(长按photo)
   调整用户管理界面  
+
+杨维 2018.3.14 工作日报
+  一些资源的国际化
+  让PhotoFragment实时更新图片资源
+
+杨维 2018.3.15 工作日报
+   增加用户反馈界面以及逻辑
+   配合ios调试ssl等相关接口

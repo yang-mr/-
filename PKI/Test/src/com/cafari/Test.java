@@ -10,7 +10,9 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.io.OutputStream;
 import java.io.Serializable;
+import java.io.UnsupportedEncodingException;
 import java.net.URL;
 import java.security.KeyManagementException;
 import java.security.KeyStore;
@@ -36,7 +38,7 @@ public class Test {
 
 	private static final String CERTIFACATE_FILE = "keystore.p12";
 	private static final String TRUST_CERTIFACATE_FILE = "trust_store";
-	private static final String CERTIFACATE_PASS = "99";
+	private static final String CERTIFACATE_PASS = "22";
 	private static final String CERTIFACATE_ALIAS = "test.clientssl.cafari.com";
 	// private static String TARGET_URL = "https://38fdc237562267a08ac56978ea1ce303.cafe.cphotobox.com:58181";
 	private static String TARGET_URL = "https://192.168.50.14:8443/command/WeiPhoto/getUserList.json";
@@ -72,9 +74,25 @@ public class Test {
 		       connection.setRequestMethod("POST");
 		       connection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
 		       connection.setRequestProperty("Content-Language", "en-US");
-
+		       connection.setRequestProperty("Connection", "close");
+		       
 		       SSLSocketFactory sslSocketFactory = getFactory(new File(CERTIFACATE_FILE), new File(TRUST_CERTIFACATE_FILE),CERTIFACATE_PASS);
 		       connection.setSSLSocketFactory(sslSocketFactory);
+		       // set requestBody
+		       connection.setDoOutput(true);
+		       String reqJson = " {\n" +
+		                "   \"AppId\": \"60076467277E4B1DD42F21B4DB5BD5A7\",\n" +
+		                "   \"TimeStamp\": 1521078608083,\n" +
+		                "   \"accessId\": \"$2a$08$ZKBHTyuTsJgRcT3pCqcK8.nxvxSG7bSTvQtXU8ZM\\/ZYN3Va0C7c5a\",\n" +
+		                "   \"cmdName\": \"getDeviceInfo\",\n" +
+		                "   \"data\": {},\n" +
+		                "   \"deviceId\": \"c44eac125aa4\",\n" +
+		                "   \"reqType\": 4,\n" +
+		                "   \"sign\": \"aa6ec3ea1d91f7baa6a11e2e61221ff7\",\n" +
+		                "   \"userId\": \"22@qq.com\"\n" +
+		                " }";
+		       byte[] data = getRequestBody(reqJson);
+		       writeIo(connection.getOutputStream(), data);
 
 		       //Process response
 		       is = connection.getInputStream();
@@ -92,12 +110,26 @@ public class Test {
 		   }
 	}
 	
+	public static byte[] getRequestBody(String body) {
+		try {
+			return body.getBytes("UTF-8");
+		} catch (UnsupportedEncodingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return null;
+		}
+	}
+	
+	private static void writeIo(OutputStream out, byte[] content) throws IOException {
+	        out.write(content);
+	        out.flush();
+	}
+	
 	public static SSLSocketFactory getFactory(File keyStoreFile, File trustStoreFile, String password){
         SSLSocketFactory sslSocketFactory = null;
         try {
         	//KeyManagerFactory keyManagerFactory = KeyManagerFactory.getInstance("SunX509");
         	String def_alg = KeyManagerFactory.getDefaultAlgorithm();
-        	System.out.println(def_alg);
         	KeyManagerFactory keyManagerFactory = KeyManagerFactory.getInstance(KeyManagerFactory.getDefaultAlgorithm());
             KeyStore keyStore = KeyStore.getInstance("PKCS12");
 
@@ -115,9 +147,7 @@ public class Test {
             trustStore.load(trustInput, "Cafari2017!".toCharArray());
             trustInput.close();
             
-            
             String def_trust_alg = TrustManagerFactory.getDefaultAlgorithm();
-            System.out.println(def_trust_alg);
             TrustManagerFactory trustManagerFactory = TrustManagerFactory.getInstance(def_trust_alg);
             trustManagerFactory.init(trustStore);
             
