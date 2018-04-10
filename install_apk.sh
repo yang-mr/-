@@ -32,3 +32,6 @@ adb -s kylin shell am start -n com.cafari.boxserver/com.cafari.boxserver.ui.Laun
 
 # look app desctipiton
 # adb -s kylin shell dumpsys package com.zjxx.android.cafebox
+
+#查看启动时间
+#adb -s 559e2c30 shell am start -W com.cafari.boxclient/com.cafari.boxclient.ui.SplashActivity
