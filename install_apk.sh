@@ -35,3 +35,6 @@ adb -s kylin shell am start -n com.cafari.boxserver/com.cafari.boxserver.ui.Laun
 
 #查看启动时间
 #adb -s 559e2c30 shell am start -W com.cafari.boxclient/com.cafari.boxclient.ui.SplashActivity
+
+#pull db
+adb -s kylin pull storage/hdd/cafari/.database/photocomb.db ./Downloads 

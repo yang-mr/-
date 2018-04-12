@@ -473,6 +473,15 @@ CafeBoxService 调通了createOperateCode
   修改getUserList接口的用户显示信息
   修复注册时显示的信息
 
-杨维 2018.4.11 工作日报
+杨维 2018.4.10 工作日报
   增加通过新用户通过邀请码绑定盒子逻辑
   修改getInviteCode 解析json异常 
+
+杨维 2018.4.11 工作日报
+  load trustStore改为本地，不需要每次去下载
+  给ios整理绑定盒子的第二种途径
+
+杨维 2018.4.12 工作日报
+  修改一些显示信息
+  userId全部转为小写上传
+  给外部整理一些信息
