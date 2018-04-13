@@ -47,3 +47,4 @@ emulator
 		http://cafe03.cafari.com/user/truststore/
 	GETKEYSTORE：
 		http://cafe03.cafari.com/user/keystore/
+ssh://git@cafe01.cafari.com/home/git/gzclient01.git

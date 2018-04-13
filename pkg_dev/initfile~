@@ -46,4 +46,4 @@ emulator
 	GETTRUSTSTORE：
 		http://cafe03.cafari.com/user/truststore/
 	GETKEYSTORE：
-		http://cafe03.cafari.com/user/truststore/user/keystore/
+		http://cafe03.cafari.com/user/keystore/
